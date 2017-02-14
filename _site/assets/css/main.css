@@ -2202,11 +2202,19 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { .visible-print-inline-block { display: inline-block !important; } }
 
 @media print { .hidden-print { display: none !important; } }
-.flex-center, .view { /* for @extend .table-cell */ display: flex; align-items: center; justify-content: center; height: 100vh; }
+.flex-center, .view, .navigation ul { /* for @extend .table-cell */ display: flex; align-items: center; justify-content: center; height: 100vh; }
 
 .full-window, body { width: 100vw; height: 100vh; }
 
 .white, .btn-red, .btn-red:hover, .my-name, .hello { color: white; }
+
+.apple { color: #c03727; }
+
+.prune { color: #ac7a85; }
+
+.skin { color: #fdc689; }
+
+.sun { color: #fcbb3f; }
 
 .text-shadow, .my-name, .hello { -webkit-text-shadow: -4px 1px 10px #111; -moz-text-shadow: -4px 1px 10px #111; -ms-text-shadow: -4px 1px 10px #111; text-shadow: -4px 1px 10px #111; }
 
@@ -2218,7 +2226,7 @@ h1, h2, h3, p, li, blockquote { line-height: 25px; }
 
 body { font-family: "Roboto Mono", monospace; background: url("../img/bg_background-abstract.svg") top center/cover no-repeat; /* the slash allows bg size cover to be added to shorthand */ background-color: black; color: #222; }
 
-.btn-red { margin-top: 25px; transition: .2s; font-size: 1.2em; background-color: #c03727; box-shadow: 0px 5px 0px #a93023, 0px 6px 2px #333; }
+.btn-red { margin-top: 25px; transition: .2s; font-size: 1.2em; background-color: #c03727; box-shadow: 0px 5px 0px #a93023; }
 
 .btn-red:hover { margin-top: 27px; background-color: #a93023; box-shadow: 0px 0px 0px; }
 
@@ -2229,3 +2237,9 @@ body { font-family: "Roboto Mono", monospace; background: url("../img/bg_backgro
 .my-name { font-size: 5em; }
 
 .hello { font-size: 3.5em; line-height: 20px; }
+
+.navigation { position: absolute; left: 0; top: 0; color: white; background-color: #333; height: 100vh; padding: 0 20px; }
+
+.navigation ul { margin: 0; padding: 0; list-style: none; flex-direction: column; }
+
+.navigation ul li { margin-bottom: 30px; }

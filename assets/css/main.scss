@@ -27,6 +27,22 @@ $robot: 'Roboto Mono', monospace;
   color: white;
 }
 
+.apple {
+  color: $apple;
+}
+
+.prune {
+  color: $prune;
+}
+
+.skin {
+  color: $skin;
+}
+
+.sun {
+  color: $sun;
+}
+
 .text-shadow {
   -webkit-text-shadow: -4px 1px 10px #111;
   -moz-text-shadow: -4px 1px 10px #111;
@@ -65,10 +81,7 @@ button {
   font-size: 1.2em;
   background-color: $apple;
   @extend .white;
-  box-shadow:
-    0px 5px 0px #a93023,
-    0px 6px 2px #333;
-  ;
+  box-shadow: 0px 5px 0px #a93023;
 }
 
 .btn-red:hover {
@@ -100,4 +113,26 @@ button {
 
 .view {
   @extend .flex-center;
+}
+
+.navigation {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  background-color: #333;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  @extend .flex-center;
+  flex-direction: column;
+}
+
+.navigation ul li {
+  margin-bottom: 30px;
 }
