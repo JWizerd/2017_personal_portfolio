@@ -65,7 +65,10 @@ button {
   font-size: 1.2em;
   background-color: $apple;
   @extend .white;
-  box-shadow: 0px 6px 0px #802319;
+  box-shadow:
+    0px 5px 0px #a93023,
+    0px 6px 2px #333;
+  ;
 }
 
 .btn-red:hover {

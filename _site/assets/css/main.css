@@ -2218,7 +2218,7 @@ h1, h2, h3, p, li, blockquote { line-height: 25px; }
 
 body { font-family: "Roboto Mono", monospace; background: url("../img/bg_background-abstract.svg") top center/cover no-repeat; /* the slash allows bg size cover to be added to shorthand */ background-color: black; color: #222; }
 
-.btn-red { margin-top: 25px; transition: .2s; font-size: 1.2em; background-color: #c03727; box-shadow: 0px 6px 0px #802319; }
+.btn-red { margin-top: 25px; transition: .2s; font-size: 1.2em; background-color: #c03727; box-shadow: 0px 5px 0px #a93023, 0px 6px 2px #333; }
 
 .btn-red:hover { margin-top: 27px; background-color: #a93023; box-shadow: 0px 0px 0px; }
 
