@@ -1,8 +1,21 @@
 ---
 ---
+
+/* ====================================
+Menu
+- Variables / Reusables
+- General
+- Home
+- navigation
+==================================== */
+
 @charset "utf-8";
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Roboto+Mono');
+
+/* ====================================
+Variables / Reusables
+==================================== */
 
 $apple: #c03727;
 $sun: #fcbb3f;
@@ -54,6 +67,10 @@ $robot: 'Roboto Mono', monospace;
   display: block !important /* overide any styles preventing block */;
 }
 
+/* ====================================
+General
+==================================== */
+
 *, body, h1, h2, h3, p, li, span, strong, blockquote {
   font-size: 18px;
 }
@@ -91,6 +108,10 @@ button {
   @extend .white;
 }
 
+/* ====================================
+Home
+==================================== */
+
 .hello, .my-name, strong {
   font-family: $fred;
   letter-spacing: 3px;
@@ -114,6 +135,10 @@ button {
 .view {
   @extend .flex-center;
 }
+
+/* ====================================
+Navigation
+==================================== */
 
 .navigation {
   position: absolute;

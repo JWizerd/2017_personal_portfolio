@@ -1,4 +1,11 @@
 @charset "UTF-8";
+/* ====================================
+Menu
+- Variables / Reusables
+- General
+- Home
+- navigation
+==================================== */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -2202,6 +2209,9 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { .visible-print-inline-block { display: inline-block !important; } }
 
 @media print { .hidden-print { display: none !important; } }
+/* ====================================
+Variables / Reusables
+==================================== */
 .flex-center, .view, .navigation ul { /* for @extend .table-cell */ display: flex; align-items: center; justify-content: center; height: 100vh; }
 
 .full-window, body { width: 100vw; height: 100vh; }
@@ -2220,6 +2230,9 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 .block, button { display: block !important; }
 
+/* ====================================
+General
+==================================== */
 *, body, h1, h2, h3, p, li, span, strong, blockquote { font-size: 18px; }
 
 h1, h2, h3, p, li, blockquote { line-height: 25px; }
@@ -2230,6 +2243,9 @@ body { font-family: "Roboto Mono", monospace; background: url("../img/bg_backgro
 
 .btn-red:hover { margin-top: 27px; background-color: #a93023; box-shadow: 0px 0px 0px; }
 
+/* ====================================
+Home
+==================================== */
 .hello, .my-name, strong { font-family: "Fredoka One", cursive; letter-spacing: 3px; }
 
 .my-name, .hello { line-height: 95px; }
@@ -2238,6 +2254,9 @@ body { font-family: "Roboto Mono", monospace; background: url("../img/bg_backgro
 
 .hello { font-size: 3.5em; line-height: 20px; }
 
+/* ====================================
+Navigation
+==================================== */
 .navigation { position: absolute; left: 0; top: 0; color: white; background-color: #333; height: 100vh; width: 80px; }
 
 .navigation ul { margin: 0; padding: 0; list-style: none; flex-direction: column; }
