@@ -79,6 +79,40 @@ h1, h2, h3, p, li, blockquote {
   line-height: 25px;
 }
 
+h2::before {
+  content: "<h2>";
+}
+
+h2::after {
+  content: "</h2>";
+}
+
+strong::before {
+  content: "<strong>";
+}
+
+strong::after {
+  content: "</strong>";
+}
+
+p::before {
+  content: "<p>";
+}
+
+p::after {
+  content: "</p>";
+}
+
+p::before, p::after {
+  display: block;
+  color: white;
+  margin-left: -20px;
+}
+
+p {
+  margin-left: 20px;
+}
+
 body {
   font-family: $robot;
   background: url("../img/bg_background-abstract.svg") top center / cover no-repeat;
@@ -130,6 +164,11 @@ Home
 .hello {
   font-size: 3.5em;
   line-height: 20px;
+  margin-left: 0; 
+}
+
+.hello::before, .hello::after {
+  content: "";
 }
 
 .view {
@@ -160,7 +199,6 @@ Navigation
 
 .navigation ul li {
   margin-bottom: 30px;
-  transition: .2s;
   opacity: .6;
   margin-left: -3px;
 }
@@ -176,11 +214,12 @@ Navigation
 
 .navigation ul li a {
   text-decoration: none;
-  color: inherit;
   font-size: 1em;
+  transition: .3s;
 }
 
 .navigation ul li a span {
   display: none;
   font-size: 13px;
+  color: white;
 }

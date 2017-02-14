@@ -2237,6 +2237,22 @@ General
 
 h1, h2, h3, p, li, blockquote { line-height: 25px; }
 
+h2::before { content: "<h2>"; }
+
+h2::after { content: "</h2>"; }
+
+strong::before { content: "<strong>"; }
+
+strong::after { content: "</strong>"; }
+
+p::before { content: "<p>"; }
+
+p::after { content: "</p>"; }
+
+p::before, p::after { display: block; color: white; margin-left: -20px; }
+
+p { margin-left: 20px; }
+
 body { font-family: "Roboto Mono", monospace; background: url("../img/bg_background-abstract.svg") top center/cover no-repeat; /* the slash allows bg size cover to be added to shorthand */ background-color: black; color: #222; }
 
 .btn-red { margin-top: 25px; transition: .2s; font-size: 1.2em; background-color: #c03727; box-shadow: 0px 5px 0px #a93023; }
@@ -2252,7 +2268,9 @@ Home
 
 .my-name { font-size: 5em; }
 
-.hello { font-size: 3.5em; line-height: 20px; }
+.hello { font-size: 3.5em; line-height: 20px; margin-left: 0; }
+
+.hello::before, .hello::after { content: ""; }
 
 /* ====================================
 Navigation
@@ -2261,12 +2279,12 @@ Navigation
 
 .navigation ul { margin: 0; padding: 0; list-style: none; flex-direction: column; }
 
-.navigation ul li { margin-bottom: 30px; transition: .2s; opacity: .6; margin-left: -3px; }
+.navigation ul li { margin-bottom: 30px; opacity: .6; margin-left: -3px; }
 
 .navigation ul li:last-child { margin-bottom: 0; }
 
 .navigation ul li:hover { position: relative; opacity: 1; }
 
-.navigation ul li a { text-decoration: none; color: inherit; font-size: 1em; }
+.navigation ul li a { text-decoration: none; font-size: 1em; transition: .3s; }
 
-.navigation ul li a span { display: none; font-size: 13px; }
+.navigation ul li a span { display: none; font-size: 13px; color: white; }
