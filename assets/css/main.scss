@@ -61,7 +61,18 @@ button {
 
 .btn-red {
   margin-top: 25px;
+  transition: .2s;
   font-size: 1.2em;
+  background-color: $apple;
+  @extend .white;
+  box-shadow: 0px 6px 0px #802319;
+}
+
+.btn-red:hover {
+  margin-top: 27px;
+  background-color: #a93023;
+  box-shadow: 0px 0px 0px;
+  @extend .white;
 }
 
 .hello, .my-name, strong {
