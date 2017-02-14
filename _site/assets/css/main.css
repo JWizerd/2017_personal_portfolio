@@ -2242,7 +2242,9 @@ body { font-family: "Roboto Mono", monospace; background: url("../img/bg_backgro
 
 .navigation ul { margin: 0; padding: 0; list-style: none; flex-direction: column; }
 
-.navigation ul li { margin-bottom: 30px; transition: .2s; opacity: .6; }
+.navigation ul li { margin-bottom: 30px; transition: .2s; opacity: .6; margin-left: -3px; }
+
+.navigation ul li:last-child { margin-bottom: 0; }
 
 .navigation ul li:hover { position: relative; opacity: 1; }
 

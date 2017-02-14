@@ -137,6 +137,11 @@ button {
   margin-bottom: 30px;
   transition: .2s;
   opacity: .6;
+  margin-left: -3px;
+}
+
+.navigation ul li:last-child {
+  margin-bottom: 0;
 }
 
 .navigation ul li:hover {
