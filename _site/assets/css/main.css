@@ -2238,8 +2238,14 @@ body { font-family: "Roboto Mono", monospace; background: url("../img/bg_backgro
 
 .hello { font-size: 3.5em; line-height: 20px; }
 
-.navigation { position: absolute; left: 0; top: 0; color: white; background-color: #333; height: 100vh; padding: 0 20px; }
+.navigation { position: absolute; left: 0; top: 0; color: white; background-color: #333; height: 100vh; width: 80px; }
 
 .navigation ul { margin: 0; padding: 0; list-style: none; flex-direction: column; }
 
-.navigation ul li { margin-bottom: 30px; }
+.navigation ul li { margin-bottom: 30px; transition: .2s; opacity: .6; }
+
+.navigation ul li:hover { position: relative; opacity: 1; }
+
+.navigation ul li a { text-decoration: none; color: inherit; font-size: 1em; }
+
+.navigation ul li a span { display: none; font-size: 13px; }
