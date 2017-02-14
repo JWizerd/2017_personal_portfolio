@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One|Roboto+Mono");
 html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
 body { margin: 0; }
@@ -2201,4 +2202,28 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { .visible-print-inline-block { display: inline-block !important; } }
 
 @media print { .hidden-print { display: none !important; } }
-body, .jumbotron { background-color: black; text-align: center; color: white; -webkit-text-shadow: 1px 1px 1px #333; -moz-text-shadow: 1px 1px 1px #333; text-shadow: 1px 1px 1px #333; width: 95%; margin: 0 auto; }
+.flex-center, .view { /* for @extend .table-cell */ display: flex; align-items: center; justify-content: center; height: 100vh; }
+
+.full-window, body { width: 100vw; height: 100vh; }
+
+.white, .my-name, .hello { color: white; }
+
+.text-shadow, .my-name, .hello { -webkit-text-shadow: -4px 1px 10px #111; -moz-text-shadow: -4px 1px 10px #111; -ms-text-shadow: -4px 1px 10px #111; text-shadow: -4px 1px 10px #111; }
+
+.block, button { display: block !important; }
+
+*, body, h1, h2, h3, p, li, span, strong, blockquote { font-size: 18px; }
+
+h1, h2, h3, p, li, blockquote { line-height: 25px; }
+
+body { font-family: "Roboto Mono", monospace; background: url("../img/bg_background-abstract.svg") top center/cover no-repeat; /* the slash allows bg size cover to be added to shorthand */ background-color: black; color: #222; }
+
+.btn-red { margin-top: 25px; font-size: 1.2em; }
+
+.hello, .my-name, strong { font-family: "Fredoka One", cursive; letter-spacing: 3px; }
+
+.my-name, .hello { line-height: 95px; }
+
+.my-name { font-size: 5em; }
+
+.hello { font-size: 3.5em; line-height: 20px; }

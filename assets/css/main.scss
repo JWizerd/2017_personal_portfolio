@@ -2,16 +2,88 @@
 ---
 @charset "utf-8";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Roboto+Mono');
 
-$pumpkin: black;
+$apple: #c03727;
+$sun: #fcbb3f;
+$prune: #ac7a85;
+$skin: #fdc689;
+$fred: 'Fredoka One', cursive;
+$robot: 'Roboto Mono', monospace;
 
-body, .jumbotron {
-  background-color: $pumpkin;
-  text-align: center;
+.flex-center { /* for @extend .table-cell */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.full-window {
+  width: 100vw;
+  height: 100vh;
+}
+
+.white {
   color: white;
-  -webkit-text-shadow: 1px 1px 1px #333;
-  -moz-text-shadow: 1px 1px 1px #333;
-  text-shadow: 1px 1px 1px #333;
-  width: 95%;
-  margin: 0 auto;
+}
+
+.text-shadow {
+  -webkit-text-shadow: -4px 1px 10px #111;
+  -moz-text-shadow: -4px 1px 10px #111;
+  -ms-text-shadow: -4px 1px 10px #111;
+  text-shadow: -4px 1px 10px #111;
+}
+
+.block {
+  display: block !important /* overide any styles preventing block */;
+}
+
+*, body, h1, h2, h3, p, li, span, strong, blockquote {
+  font-size: 18px;
+}
+
+h1, h2, h3, p, li, blockquote {
+  line-height: 25px;
+}
+
+body {
+  font-family: $robot;
+  background: url("../img/bg_background-abstract.svg") top center / cover no-repeat;
+  /* the slash allows bg size cover to be added to shorthand */
+  background-color: black;
+  @extend .full-window;
+  color: #222;
+}
+
+button {
+  @extend .block;
+}
+
+.btn-red {
+  margin-top: 25px;
+  font-size: 1.2em;
+}
+
+.hello, .my-name, strong {
+  font-family: $fred;
+  letter-spacing: 3px;
+}
+
+.my-name, .hello {
+  @extend .white;
+  @extend .text-shadow;
+  line-height: 95px;
+}
+
+.my-name {
+  font-size: 5em;
+}
+
+.hello {
+  font-size: 3.5em;
+  line-height: 20px;
+}
+
+.view {
+  @extend .flex-center;
 }
