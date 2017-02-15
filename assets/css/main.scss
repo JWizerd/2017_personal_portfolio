@@ -92,7 +92,12 @@ $robot: 'Roboto Mono', monospace;
 }
 
 .overflow-content {
-  overflow-y: scroll;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.strong {
+  font-weight: bold;
 }
 
 /* ====================================
@@ -285,6 +290,10 @@ Subpage
   content: "";
 }
 
+.tech-icons-horizontal {
+  display: none;
+}
+
 /* ====================================
 Media Queries
 ==================================== */
@@ -292,6 +301,7 @@ Media Queries
   .about-text {
     height: 48vh;
     background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid #333;
   }
 
   button.btn-subpage {
@@ -314,6 +324,11 @@ Media Queries
 @media all and (max-width: 991px) {
   .about-tech {
     display: none;
+  }
+
+  .tech-icons-horizontal {
+    display: block;
+    margin-bottom: 20px;
   }
 
   .my-name, .hello {

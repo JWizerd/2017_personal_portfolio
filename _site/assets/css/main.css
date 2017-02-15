@@ -2241,7 +2241,9 @@ Variables / Reusables
 
 .cell-vertical-alignment { display: table-cell; vertical-align: middle; }
 
-.overflow-content { overflow-y: scroll; }
+.overflow-content { overflow-y: auto; -webkit-overflow-scrolling: touch; }
+
+.strong { font-weight: bold; }
 
 /* ====================================
 General
@@ -2319,15 +2321,18 @@ Subpage
 
 .about-text p::before, .about-text p::after { content: ""; }
 
+.tech-icons-horizontal { display: none; }
+
 /* ====================================
 Media Queries
 ==================================== */
-@media all and (max-width: 1199px) { .about-text { height: 48vh; background-color: rgba(255, 255, 255, 0.3); }
+@media all and (max-width: 1199px) { .about-text { height: 48vh; background-color: rgba(255, 255, 255, 0.3); border: 1px solid #333; }
   button.btn-subpage { margin-top: 20px; }
   .hello, .subpage-title { font-size: 2.5em; }
   .my-name { font-size: 4em; }
   .subpage-title { margin-bottom: 25px; } }
 @media all and (max-width: 991px) { .about-tech { display: none; }
+  .tech-icons-horizontal { display: block; margin-bottom: 20px; }
   .my-name, .hello, .subpage-title { line-height: 40px; }
   .hello, .subpage-title { font-size: 1.8em; }
   .my-name { font-size: 3em; margin-top: 0; }
