@@ -107,6 +107,34 @@ span.apple:hover {
   font-weight: bold;
 }
 
+.my-animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@mixin animate-duration($duration) {
+  -webkit-animation-duration: $duration;
+  -moz-animation-duration: $duration;
+  -ms-animation-duration: $duration;
+  animation-duration: $duration;
+}
+
+@mixin animate-delay($delay) {
+  -webkit-animation-delay: $delay;
+  -moz-animation-delay: $delay;
+  -ms-animation-delay: $delay;
+  animation-delay: $delay;
+}
+
+@mixin animate-iteration($i) {
+  -moz-animation-iteration-count: $i;
+  -moz-animation-iteration-count: $i;
+  -moz-animation-iteration-count: $i;
+  animation-iteration-count: $i;
+}
+
 /* ====================================
 Animations
 ==================================== */
@@ -247,6 +275,10 @@ button a, button a:hover {
 Home
 ==================================== */
 
+.view {
+  @extend .flex-center;
+}
+
 .hello, .my-name, strong {
   font-family: $fred;
   letter-spacing: 3px;
@@ -255,26 +287,33 @@ Home
 .my-name, .hello {
   @extend .white;
   @extend .text-shadow;
+  @extend .my-animate;
   line-height: 95px;
   color: $sun;
 }
 
 .my-name {
   font-size: 5em;
+  @include animation-delay(1.5s);
 }
 
 .hello {
   font-size: 3.5em;
   line-height: 20px;
   margin-left: 0;
+  @include animation-delay(.5s);
 }
 
 .hello::before, .hello::after {
   content: "";
 }
 
-.view {
-  @extend .flex-center;
+.home-bio-content {
+  @include animation-delay(2s);
+}
+
+.btn-home {
+  @include animation-delay(10s);
 }
 
 /* ====================================
