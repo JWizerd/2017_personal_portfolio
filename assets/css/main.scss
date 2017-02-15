@@ -6,7 +6,8 @@ Menu
 - Variables / Reusables
 - General
 - Home
-- navigation
+- Navigation
+- Subpage
 ==================================== */
 
 @charset "utf-8";
@@ -29,6 +30,11 @@ $robot: 'Roboto Mono', monospace;
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+.inner-flex-center {
+  @extend .flex-center;
+  height: 100%;
 }
 
 .full-window {
@@ -65,6 +71,24 @@ $robot: 'Roboto Mono', monospace;
 
 .block {
   display: block !important /* overide any styles preventing block */;
+}
+
+.original-text {
+  font-size: 1em;
+}
+
+.smaller-text {
+  font-size: .75em;
+}
+
+.table {
+  display: table;
+  height: 100%;
+}
+
+.cell-vertical-alignment {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /* ====================================
@@ -105,12 +129,13 @@ p::after {
 
 p::before, p::after {
   display: block;
-  color: white;
+  color: black;
   margin-left: -20px;
 }
 
 p {
   margin-left: 20px;
+  text-align: justify;
 }
 
 body {
@@ -120,10 +145,6 @@ body {
   background-color: black;
   @extend .full-window;
   color: #222;
-}
-
-button {
-  @extend .block;
 }
 
 .btn-red {
@@ -142,6 +163,9 @@ button {
   @extend .white;
 }
 
+button.btn-subpage {
+  font-size: 1em;
+}
 /* ====================================
 Home
 ==================================== */
@@ -164,7 +188,7 @@ Home
 .hello {
   font-size: 3.5em;
   line-height: 20px;
-  margin-left: 0; 
+  margin-left: 0;
 }
 
 .hello::before, .hello::after {
@@ -222,4 +246,17 @@ Navigation
   display: none;
   font-size: 13px;
   color: white;
+}
+
+/* ====================================
+Subpage
+==================================== */
+
+.subpage-title {
+  @extend .hello;
+  margin-bottom: 50px;
+}
+
+.tech-icons {
+  margin-left: 50px;
 }
