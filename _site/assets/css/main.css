@@ -2285,7 +2285,7 @@ Home
 ==================================== */
 .hello, .subpage-title, .my-name, strong { font-family: "Fredoka One", cursive; letter-spacing: 3px; }
 
-.my-name, .hello, .subpage-title { line-height: 95px; }
+.my-name, .hello, .subpage-title { line-height: 95px; color: #fcbb3f; }
 
 .my-name { font-size: 5em; }
 
@@ -2335,17 +2335,19 @@ Media Queries
   .tech-icons-horizontal { display: block; margin-bottom: 20px; }
   .my-name, .hello, .subpage-title { line-height: 40px; }
   .hello, .subpage-title { font-size: 1.8em; }
-  .my-name { font-size: 3em; margin-top: 0; }
+  .my-name { font-size: 3em; margin-top: 0; color: white; }
   .subpage-title { font-size: 2.5em; } }
-@media all and (max-width: 768px) { .view { margin-left: 0; padding-top: 50px; }
+@media all and (max-width: 768px) { *, body, h1, h2, h3, p, li, span, strong, blockquote { font-size: 16px; }
+  .view { margin-left: 0; padding-top: 50px; }
   .navigation { height: 70px; width: 100%; z-index: 4; }
   .navigation ul { padding: 17px 0 20px 0; flex-direction: row; align-items: flex-start; justify-content: space-around; height: 70px; }
   .navigation ul li, .navigation ul li:last-child { margin-bottom: 0; }
   .navigation ul li a span { padding-top: 5px; }
   span.white, span.btn-red, span.btn-red:hover, span.my-name, span.hello, span.subpage-title { color: #c03727; }
   .subpage-title { font-size: 2.5em; }
-  .about-text p { text-align: left; } }
+  .about-text p { text-align: left; }
+  button.btn-subpage a { font-size: .8em; } }
 @media all and (max-width: 631px) { .my-name, .hello, .subpage-title { line-height: 30px; }
   .my-name { font-size: 2.5em; line-height: 50px; }
-  .hello, .subpage-title { font-size: 1.3em; }
+  .hello, .subpage-title { font-size: 1.8em; }
   .subpage-title { font-size: 2.5em; } }

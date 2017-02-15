@@ -199,6 +199,7 @@ Home
   @extend .white;
   @extend .text-shadow;
   line-height: 95px;
+  color: $sun;
 }
 
 .my-name {
@@ -342,6 +343,7 @@ Media Queries
   .my-name {
     font-size: 3em;
     margin-top: 0;
+    color: white;
   }
 
   .subpage-title {
@@ -350,6 +352,10 @@ Media Queries
 }
 
 @media all and (max-width: 768px) {
+  *, body, h1, h2, h3, p, li, span, strong, blockquote {
+    font-size: 16px;
+  }
+
   .view {
     margin-left: 0;
     padding-top: 50px;
@@ -388,6 +394,10 @@ Media Queries
   .about-text p {
     text-align: left;
   }
+
+  button.btn-subpage a {
+    font-size: .8em;
+  }
 }
 
 @media all and (max-width: 631px) {
@@ -401,7 +411,7 @@ Media Queries
   }
 
   .hello {
-    font-size: 1.3em;
+    font-size: 1.8em;
   }
 
   .subpage-title {
