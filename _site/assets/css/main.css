@@ -2332,6 +2332,21 @@ Subpage
 .tech-icons-horizontal { display: none; }
 
 /* ====================================
+Email
+==================================== */
+input { margin-bottom: 10px; }
+
+input:last-child { margin-bottom: 0; }
+
+.contact-form input, .contact-form textarea { background-color: rgba(255, 255, 255, 0.6); }
+
+.contact-form input, .contact-form textarea { border: 2px solid #fcbb3f; }
+
+.contact-form input[type="submit"] { border: none; margin-top: 0; transition: .2s; background-color: #c03727; }
+
+.contact-form input:focus, .contact-form textarea:focus { border: 2px solid #c03727; box-shadow: none; color: #c03727; }
+
+/* ====================================
 Media Queries
 ==================================== */
 @media all and (max-width: 1199px) { .about-text { padding: 10px; height: 48vh; background-color: rgba(255, 255, 255, 0.3); border: 1px solid #333; }
