@@ -443,9 +443,14 @@ Media Queries
 @media all and (max-width: 375px) {
   .my-name {
     font-size: 2em;
+    line-height: 42px;
   }
 
   .hello {
     font-size: 1.5em;
+  }
+
+  .tldr {
+    display: none;
   }
 }

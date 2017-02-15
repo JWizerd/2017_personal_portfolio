@@ -2359,5 +2359,6 @@ Media Queries
   .my-name { font-size: 2.5em; line-height: 50px; }
   .hello, .subpage-title { font-size: 1.8em; }
   .subpage-title { font-size: 2.5em; } }
-@media all and (max-width: 375px) { .my-name { font-size: 2em; }
-  .hello, .subpage-title { font-size: 1.5em; } }
+@media all and (max-width: 375px) { .my-name { font-size: 2em; line-height: 42px; }
+  .hello, .subpage-title { font-size: 1.5em; }
+  .tldr { display: none; } }
