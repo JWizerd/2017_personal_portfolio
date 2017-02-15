@@ -2,6 +2,7 @@
 /* ====================================
 Menu
 - Variables / Reusables
+- Animations
 - General
 - Home
 - Navigation
@@ -2219,9 +2220,11 @@ Variables / Reusables
 
 .full-window, body { width: 100vw; height: 100vh; }
 
-.white, .btn-red, .btn-red:hover, .my-name, .hello, .subpage-title { color: white; }
+.white, .btn-red, input.btn-submit, .btn-red:hover, input.btn-submit:hover, .my-name, .hello, .subpage-title { color: white; }
 
 .apple { color: #c03727; }
+
+span.apple:hover { color: red; }
 
 .prune { color: #ac7a85; }
 
@@ -2245,6 +2248,15 @@ Variables / Reusables
 
 .strong { font-weight: bold; }
 
+/* ====================================
+Animations
+==================================== */
+@-webkit-keyframes pulse { 0% { -webkit-box-shadow: 0 0 0 0 rgba(255, 102, 51, 0.8); }
+  70% { -webkit-box-shadow: 0 0 0 15px rgba(204, 169, 44, 0); }
+  100% { -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0); } }
+@keyframes pulse { 0% { -moz-box-shadow: 0 0 0 0 rgba(255, 102, 51, 0.8); box-shadow: 0 0 0 0 rgba(255, 102, 51, 0.8); }
+  70% { -moz-box-shadow: 0 0 0 15px rgba(204, 169, 44, 0); box-shadow: 0 0 0 15px rgba(204, 169, 44, 0); }
+  100% { -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0); box-shadow: 0 0 0 0 rgba(204, 169, 44, 0); } }
 /* ====================================
 General
 ==================================== */
@@ -2274,9 +2286,9 @@ a:hover { text-decoration: none; }
 
 body { font-family: "Roboto Mono", monospace; background: url("../img/bg_background-abstract.svg") top center/cover no-repeat; /* the slash allows bg size cover to be added to shorthand */ background-color: black; color: #222; height: 100vh; }
 
-.btn-red { margin-top: 25px; transition: .2s; font-size: 1em; background-color: #c03727; box-shadow: 0px 5px 0px #a93023; }
+.btn-red, input.btn-submit { margin-top: 25px; transition: .2s; font-size: 1em; background-color: #ff3333; }
 
-.btn-red:hover { margin-top: 27px; background-color: #a93023; box-shadow: 0px 0px 0px; }
+.btn-red:hover, input.btn-submit:hover { background-color: #ff6633; animation: pulse 2s infinite; }
 
 button.btn-subpage { margin-top: 10px; }
 
@@ -2345,6 +2357,10 @@ input:last-child { margin-bottom: 0; }
 .contact-form input[type="submit"] { border: none; margin-top: 0; transition: .2s; background-color: #c03727; }
 
 .contact-form input:focus, .contact-form textarea:focus { border: 2px solid #c03727; box-shadow: none; color: #c03727; }
+
+input.btn-submit { margin-top: 0; transition: .2s; }
+
+input.btn-submit:hover { background-color: #ff6633; }
 
 /* ====================================
 Media Queries

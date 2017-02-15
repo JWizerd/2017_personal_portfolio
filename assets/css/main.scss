@@ -4,6 +4,7 @@
 /* ====================================
 Menu
 - Variables / Reusables
+- Animations
 - General
 - Home
 - Navigation
@@ -19,6 +20,8 @@ Variables / Reusables
 ==================================== */
 
 $apple: #c03727;
+$watermelon: #ff3333;
+$mango: #ff6633;
 $sun: #fcbb3f;
 $prune: #ac7a85;
 $skin: #fdc689;
@@ -48,6 +51,10 @@ $robot: 'Roboto Mono', monospace;
 
 .apple {
   color: $apple;
+}
+
+span.apple:hover {
+  color: red;
 }
 
 .prune {
@@ -98,6 +105,36 @@ $robot: 'Roboto Mono', monospace;
 
 .strong {
   font-weight: bold;
+}
+
+/* ====================================
+Animations
+==================================== */
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 102, 51, .8);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 15px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 102, 51, .8);
+    box-shadow: 0 0 0 0 rgba(255, 102, 51, .8);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 15px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 15px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
 }
 
 /* ====================================
@@ -172,16 +209,14 @@ body {
   margin-top: 25px;
   transition: .2s;
   font-size: 1em;
-  background-color: $apple;
+  background-color: $watermelon;
   @extend .white;
-  box-shadow: 0px 5px 0px #a93023;
 }
 
 .btn-red:hover {
-  margin-top: 27px;
-  background-color: #a93023;
-  box-shadow: 0px 0px 0px;
+  background-color: #ff6633;
   @extend .white;
+  animation: pulse 2s infinite;
 }
 
 button.btn-subpage {
@@ -347,6 +382,16 @@ input:last-child {
   border: 2px solid $apple;
   box-shadow: none;
   color: $apple;
+}
+
+input.btn-submit {
+  @extend .btn-red;
+  margin-top: 0;
+  transition: .2s;
+}
+
+input.btn-submit:hover {
+  background-color: $mango;
 }
 
 /* ====================================
