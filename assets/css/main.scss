@@ -70,7 +70,7 @@ $robot: 'Roboto Mono', monospace;
 }
 
 .block {
-  display: block !important /* overide any styles preventing block */;
+  display: block;  /* overide any styles preventing block */;
 }
 
 .original-text {

@@ -2231,7 +2231,7 @@ Variables / Reusables
 
 .text-shadow, .my-name, .hello, .subpage-title { -webkit-text-shadow: -4px 1px 10px #111; -moz-text-shadow: -4px 1px 10px #111; -ms-text-shadow: -4px 1px 10px #111; text-shadow: -4px 1px 10px #111; }
 
-.block { display: block !important; }
+.block { display: block; /* overide any styles preventing block */ }
 
 .original-text { font-size: 1em; }
 
