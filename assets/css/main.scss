@@ -147,6 +147,13 @@ p {
   text-align: justify;
 }
 
+.pipe {
+  font-family: $robot;
+  padding: 0 1px 0 1px;
+  color: white;
+  font-size: 1em;
+}
+
 body {
   font-family: $robot;
   background: url("../img/bg_background-abstract.svg") top center / cover no-repeat;
@@ -180,6 +187,17 @@ button.btn-subpage {
 button a, button a:hover {
   color: white;
   text-decoration: none;
+}
+
+.social-icons {
+  position: absolute;
+  right:0;
+  bottom: 0;
+  padding: 10px;
+}
+
+.social-icons a i {
+  font-size: 2em;
 }
 
 .view {
