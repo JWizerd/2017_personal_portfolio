@@ -2274,11 +2274,11 @@ a:hover { text-decoration: none; }
 
 body { font-family: "Roboto Mono", monospace; background: url("../img/bg_background-abstract.svg") top center/cover no-repeat; /* the slash allows bg size cover to be added to shorthand */ background-color: black; color: #222; }
 
-.btn-red { margin-top: 25px; transition: .2s; font-size: 1.2em; background-color: #c03727; box-shadow: 0px 5px 0px #a93023; }
+.btn-red { margin-top: 25px; transition: .2s; font-size: 1em; background-color: #c03727; box-shadow: 0px 5px 0px #a93023; }
 
 .btn-red:hover { margin-top: 27px; background-color: #a93023; box-shadow: 0px 0px 0px; }
 
-button.btn-subpage { font-size: 1em; margin-top: 10px; }
+button.btn-subpage { margin-top: 10px; }
 
 button a, button a:hover { color: white; text-decoration: none; }
 
@@ -2354,8 +2354,10 @@ Media Queries
   span.white, span.btn-red, span.btn-red:hover, span.my-name, span.hello, span.subpage-title { color: #c03727; }
   .subpage-title { font-size: 2.5em; }
   .about-text p { text-align: left; }
-  button.btn-subpage a { font-size: .8em; } }
+  button.btn-subpage a, button.btn-red a { font-size: .8em; } }
 @media all and (max-width: 631px) { .my-name, .hello, .subpage-title { line-height: 30px; }
   .my-name { font-size: 2.5em; line-height: 50px; }
   .hello, .subpage-title { font-size: 1.8em; }
   .subpage-title { font-size: 2.5em; } }
+@media all and (max-width: 375px) { .my-name { font-size: 2em; }
+  .hello, .subpage-title { font-size: 1.5em; } }
