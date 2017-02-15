@@ -2270,6 +2270,8 @@ p { margin-left: 20px; text-align: justify; }
 
 .pipe { font-family: "Roboto Mono", monospace; padding: 0 1px 0 1px; color: white; font-size: 1em; }
 
+a:hover { text-decoration: none; }
+
 body { font-family: "Roboto Mono", monospace; background: url("../img/bg_background-abstract.svg") top center/cover no-repeat; /* the slash allows bg size cover to be added to shorthand */ background-color: black; color: #222; }
 
 .btn-red { margin-top: 25px; transition: .2s; font-size: 1.2em; background-color: #c03727; box-shadow: 0px 5px 0px #a93023; }
@@ -2321,7 +2323,7 @@ Subpage
 
 .tech-icons { margin-left: 50px; }
 
-.about-text { padding: 10px; background-color: transparent; border-radius: 10px; }
+.about-text { background-color: transparent; border-radius: 10px; }
 
 .about-text p { margin-left: 0; }
 
@@ -2332,7 +2334,7 @@ Subpage
 /* ====================================
 Media Queries
 ==================================== */
-@media all and (max-width: 1199px) { .about-text { height: 48vh; background-color: rgba(255, 255, 255, 0.3); border: 1px solid #333; }
+@media all and (max-width: 1199px) { .about-text { padding: 10px; height: 48vh; background-color: rgba(255, 255, 255, 0.3); border: 1px solid #333; }
   button.btn-subpage { margin-top: 20px; }
   .hello, .subpage-title { font-size: 2.5em; }
   .my-name { font-size: 4em; }

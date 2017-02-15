@@ -154,6 +154,10 @@ p {
   font-size: 1em;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 body {
   font-family: $robot;
   background: url("../img/bg_background-abstract.svg") top center / cover no-repeat;
@@ -296,7 +300,6 @@ Subpage
 }
 
 .about-text {
-  padding: 10px;
   background-color: transparent;
   border-radius: 10px;
 }
@@ -318,6 +321,7 @@ Media Queries
 ==================================== */
 @media all and (max-width: 1199px) {
   .about-text {
+    padding: 10px;
     height: 48vh;
     background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid #333;
