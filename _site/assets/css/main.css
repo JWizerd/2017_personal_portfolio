@@ -2396,7 +2396,7 @@ Media Queries
   span.white, span.btn-red, span.btn-red:hover, span.my-name, span.hello, span.subpage-title { color: #c03727; }
   .subpage-title { font-size: 2.5em; }
   .about-text p { text-align: left; }
-  button.btn-subpage a, button.btn-red a { font-size: .8em; } }
+  button.btn-subpage a, button.btn-red a { font-size: 1em; } }
 @media all and (min-width: 717px) and (max-width: 800px) { /* landscape orientation for smartphones display only a fully width orientation image */ }
 @media all and (max-width: 631px) { .my-name, .hello, .subpage-title { line-height: 30px; }
   .my-name { font-size: 2.5em; line-height: 50px; }
@@ -2405,5 +2405,5 @@ Media Queries
 @media all and (max-width: 491px) { .my-name span { display: none; } }
 @media all and (max-width: 375px) { .my-name { font-size: 2em; line-height: 25px; }
   .hello, .subpage-title { font-size: 1.5em; }
-  .tldr { display: block; }
+  .tldr { display: block; font-size: .8em; }
   .about-buttons { display: none; } }
