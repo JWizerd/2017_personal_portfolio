@@ -260,6 +260,10 @@ button a, button a:hover {
   text-decoration: none;
 }
 
+.mobile-social {
+  display: none;
+}
+
 .social-icons {
   position: absolute;
   right:0;
@@ -269,6 +273,10 @@ button a, button a:hover {
 
 .social-icons a i {
   font-size: 2em;
+}
+
+.content-wrapper {
+  position: relative;
 }
 
 .view {
@@ -598,6 +606,19 @@ Media Queries
 
   .social-icons {
     display: none;
+  }
+
+  .mobile-social {
+    display: block;
+    position: absolute;
+    right:0;
+    top: 70px;
+    padding: 10px;
+    z-index: 4;
+  }
+
+  .mobile-social a {
+    font-size: 1.5em;
   }
 
   .about-buttons {

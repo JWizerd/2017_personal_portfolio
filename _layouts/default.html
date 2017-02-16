@@ -11,26 +11,23 @@
 </head>
 <body>
   {% include navigation.html %}
-  <div class="container content">
-    <div class="col-md-12">
-      <main class="view">
-          <div>
-            {{content}}
-          </div>
-      </main>
+  <div class="content-wrapper">
+    <div class="mobile-social">
+      {% include social_icons.html %}
+    </div>
+    <div class="container content">
+      <div class="col-md-12">
+        <main class="view">
+            <div>
+              {{content}}
+            </div>
+        </main>
+      </div>
     </div>
   </div>
-  <footer class="social-icons">
-    <a taret="_blank" href="https://www.linkedin.com/in/jeremiah-wodke-1b3532102">
-      <i class="fa fa-linkedin"></i>
-    </a>
-    <a target="_blank" href="https://www.facebook.com/impactstudioWebDesign/">
-      <i class="fa fa-facebook"></i>
-    </a>
-    <a target="_blank" href="https://www.google.com/search?q=impctstud.io+web+design&oq=impctstud.io+web+design&aqs=chrome..69i57.5511j0j1&sourceid=chrome&ie=UTF-8#safe=off&q=impactstud.io+loveland+colorado">
-      <i class="fa fa-google-plus apple"></i>
-    </a>
-  </footer>
+  <div class="social-icons">
+    {% include social_icons.html %}
+  </div>
   <script type="text/javascript" src="assets/javascripts/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="assets/javascripts/main.js"></script>
 </body>

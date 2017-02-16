@@ -2298,9 +2298,13 @@ button.btn-subpage { margin-top: 10px; }
 
 button a, button a:hover { color: white; text-decoration: none; }
 
+.mobile-social { display: none; }
+
 .social-icons { position: absolute; right: 0; bottom: 0; padding: 10px; }
 
 .social-icons a i { font-size: 2em; }
+
+.content-wrapper { position: relative; }
 
 .view { margin-left: 50px; }
 
@@ -2407,4 +2411,6 @@ Media Queries
   .hello, .subpage-title { font-size: 1.5em; }
   .tldr { display: block; font-size: .8em; }
   .social-icons { display: none; }
+  .mobile-social { display: block; position: absolute; right: 0; top: 70px; padding: 10px; z-index: 4; }
+  .mobile-social a { font-size: 1.5em; }
   .about-buttons { display: none; } }
