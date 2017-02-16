@@ -584,7 +584,7 @@ Media Queries
 @media all and (max-width: 375px) {
   .my-name {
     font-size: 2em;
-    line-height: 42px;
+    line-height: 25px;
   }
 
   .hello {
@@ -592,7 +592,7 @@ Media Queries
   }
 
   .tldr {
-    display: none;
+    display: block;
   }
 
   .about-buttons {
