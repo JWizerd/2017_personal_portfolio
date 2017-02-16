@@ -593,17 +593,10 @@ Media Queries
 
   .tldr {
     display: block;
-    font-size: .8em;
+    font-size: .4em;
   }
 
   .about-buttons {
-    display: none;
-  }
-}
-
-// for safari only
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  .tldr {
     display: none;
   }
 }

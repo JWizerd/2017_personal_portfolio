@@ -2405,6 +2405,5 @@ Media Queries
 @media all and (max-width: 491px) { .my-name span { display: none; } }
 @media all and (max-width: 375px) { .my-name { font-size: 2em; line-height: 25px; }
   .hello, .subpage-title { font-size: 1.5em; }
-  .tldr { display: block; font-size: .8em; }
+  .tldr { display: block; font-size: .4em; }
   .about-buttons { display: none; } }
-@media screen and (-webkit-min-device-pixel-ratio: 0) { .tldr { display: none; } }
