@@ -2270,6 +2270,8 @@ h2::before { content: "<h2>"; }
 
 h2::after { content: "</h2>"; }
 
+h2::before, h2::after, strong::before, strong::after, p::before, p::after { font-family: "Roboto Mono", monospace; font-style: italic; font-size: .9em; letter-spacing: -1px; }
+
 strong { color: #222; }
 
 strong::before { content: "<strong>"; }
@@ -2412,5 +2414,5 @@ Media Queries
   .tldr { display: block; font-size: .8em; }
   .social-icons { display: none; }
   .mobile-social { display: block; position: absolute; right: 0; top: 70px; padding: 10px; z-index: 4; }
-  .mobile-social a { font-size: 1.5em; }
+  .mobile-social a { font-size: 1.5atoem; }
   .about-buttons { display: none; } }

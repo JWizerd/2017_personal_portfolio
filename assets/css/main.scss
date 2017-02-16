@@ -185,6 +185,18 @@ h2::after {
   content: "</h2>";
 }
 
+h2::before,
+h2::after,
+strong::before,
+strong::after,
+p::before,
+p::after  {
+  font-family: $robot;
+  font-style: italic;
+  font-size: .9em;
+  letter-spacing: -1px;
+}
+
 strong {
   color: #222;
 }
@@ -618,7 +630,7 @@ Media Queries
   }
 
   .mobile-social a {
-    font-size: 1.5em;
+    font-size: 1.5atoem;
   }
 
   .about-buttons {
