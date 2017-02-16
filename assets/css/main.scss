@@ -185,6 +185,10 @@ h2::after {
   content: "</h2>";
 }
 
+strong {
+  color: #222;
+}
+
 strong::before {
   content: "<strong>";
 }
@@ -203,7 +207,7 @@ p::after {
 
 p::before, p::after {
   display: block;
-  color: black;
+  color: #333;
   margin-left: -20px;
 }
 
@@ -229,7 +233,7 @@ body {
   /* the slash allows bg size cover to be added to shorthand */
   background-color: black;
   @extend .full-window;
-  color: #222;
+  color: #111;
   height: 100vh;
 }
 
@@ -462,6 +466,10 @@ Media Queries
 }
 
 @media all and (max-width: 991px) {
+  .my-name, .hello, .subpage-title {
+    text-shadow: none;
+  }
+
   .about-tech {
     display: none;
   }
@@ -477,12 +485,13 @@ Media Queries
 
   .hello {
     font-size: 1.8em;
+    color: #222;
   }
 
   .my-name {
     font-size: 3em;
     margin-top: 0;
-    color: white;
+    color: #333;
   }
 
   .subpage-title {

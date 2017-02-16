@@ -2270,6 +2270,8 @@ h2::before { content: "<h2>"; }
 
 h2::after { content: "</h2>"; }
 
+strong { color: #222; }
+
 strong::before { content: "<strong>"; }
 
 strong::after { content: "</strong>"; }
@@ -2278,7 +2280,7 @@ p::before { content: "<p>"; }
 
 p::after { content: "</p>"; }
 
-p::before, p::after { display: block; color: black; margin-left: -20px; }
+p::before, p::after { display: block; color: #333; margin-left: -20px; }
 
 p { margin-left: 20px; text-align: justify; }
 
@@ -2286,7 +2288,7 @@ p { margin-left: 20px; text-align: justify; }
 
 a:hover { text-decoration: none; }
 
-body { font-family: "Roboto Mono", monospace; background: url("../img/bg_background-abstract.svg") top center/cover no-repeat; /* the slash allows bg size cover to be added to shorthand */ background-color: black; color: #222; height: 100vh; }
+body { font-family: "Roboto Mono", monospace; background: url("../img/bg_background-abstract.svg") top center/cover no-repeat; /* the slash allows bg size cover to be added to shorthand */ background-color: black; color: #111; height: 100vh; }
 
 .btn-red, input.btn-submit { margin-top: 25px; transition: .2s; font-size: 1em; background-color: #ff3333; }
 
@@ -2376,11 +2378,12 @@ Media Queries
   .hello, .subpage-title { font-size: 2.5em; }
   .my-name { font-size: 4em; }
   .subpage-title { margin-bottom: 25px; } }
-@media all and (max-width: 991px) { .about-tech { display: none; }
+@media all and (max-width: 991px) { .my-name, .hello, .subpage-title, .subpage-title { text-shadow: none; }
+  .about-tech { display: none; }
   .tech-icons-horizontal { display: block; margin-bottom: 20px; }
   .my-name, .hello, .subpage-title { line-height: 40px; }
-  .hello, .subpage-title { font-size: 1.8em; }
-  .my-name { font-size: 3em; margin-top: 0; color: white; }
+  .hello, .subpage-title { font-size: 1.8em; color: #222; }
+  .my-name { font-size: 3em; margin-top: 0; color: #333; }
   .subpage-title { font-size: 2.5em; } }
 @media all and (max-width: 768px) { *, body, h1, h2, h3, p, li, span, strong, blockquote { font-size: 16px; }
   .view { margin-left: 0; padding-top: 50px; }
