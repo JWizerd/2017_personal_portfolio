@@ -301,6 +301,10 @@ Home
   @include animation-delay(1.5s);
 }
 
+.my-name span {
+  font-size: inherit;
+}
+
 .hello {
   font-size: 3.5em;
   line-height: 20px;
@@ -568,6 +572,12 @@ Media Queries
 
   .subpage-title {
     font-size: 2.5em;
+  }
+}
+
+@media all and (max-width: 491px) {
+  .my-name span {
+    display: none;
   }
 }
 
