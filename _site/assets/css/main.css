@@ -2407,3 +2407,4 @@ Media Queries
   .hello, .subpage-title { font-size: 1.5em; }
   .tldr { display: block; font-size: .8em; }
   .about-buttons { display: none; } }
+@media screen and (-webkit-min-device-pixel-ratio: 0) { .tldr { display: none; } }

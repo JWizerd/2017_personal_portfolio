@@ -600,3 +600,10 @@ Media Queries
     display: none;
   }
 }
+
+// for safari only
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .tldr {
+    display: none;
+  }
+}
