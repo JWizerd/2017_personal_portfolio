@@ -2306,7 +2306,7 @@ button a, button a:hover { color: white; text-decoration: none; }
 
 .social-icons { position: absolute; right: 0; bottom: 0; padding: 10px; }
 
-.social-icons a i { font-size: 2em; }
+.social-icons a i, .mobile-social a i { font-size: 2em; }
 
 .content-wrapper { position: relative; }
 
