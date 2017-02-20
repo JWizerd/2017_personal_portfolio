@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="subpage-title">
+        Recent Work
+      </h1>
+      <div class="overflow-content about-text">
+        <p>
+          Below are a few of the recent client projects I have worked ranging from simple Rails applications to highly customizable Wordpress Themes. <span class="apple">Click the image</span> to see a breakdown of each project.
+        </p>
+      </div>
+    </div>
+    <ul class="col-md-3 bg-transparent clients">
+      {% for client in site.data.clients %}
+        <li>
+          <figure class="client">
+              <img data-toggle="modal" data-target="#exampleModal" class="img-responsive" src="{{ site.baseurl }}/{{ client.logo }}" alt="{{ client.name }} Web Development">
+              <!-- Modal -->
+              <figcaption>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </figcaption>
+          </figure>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

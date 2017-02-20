@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Pikes Peak Plastics",
+    "description": "A turn key website solution for client user friendliness and extensibility.",
+    "specs": ["Wordpress", "PHP", "jQuery", "Bootstrap"],
+    "slideImage": "assets/img/desktop_eric-sunness-attorney-web-development.jpg",
+    "logo": "assets/img/logo_eric-sunness-attorney-web-design.png"
+  }
+]
