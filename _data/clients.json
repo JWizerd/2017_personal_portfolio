@@ -1,7 +1,7 @@
 [
   {
     "name": "Pikes Peak Plastics",
-    "description": "A turn key website solution for client user friendliness and extensibility. Built with Wordpress and PHP7 for performance.",
+    "description": "A turn key website solution for client user friendliness and extensibility. Built with Wordpress 4.7 and PHP7 for performance.",
     "specs": ["Wordpress", "PHP", "jQuery", "Bootstrap", "RWD"],
     "mainImage": "assets/img/desktop_pikes-peak-plastics-engineering-web-development.jpg",
     "logo": "assets/img/logo_pikes-peak-plastics-engineering-web-design.png",
