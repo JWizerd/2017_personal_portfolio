@@ -2272,7 +2272,7 @@ h2::before { content: "<h2>"; }
 
 h2::after { content: "</h2>"; }
 
-h2::before, h2::after, strong::before, strong::after, p::before, p::after { font-family: "Roboto Mono", monospace; font-style: italic; font-size: .9em; letter-spacing: -1px; }
+h2::before, h2::after, strong::before, strong::after { font-family: "Roboto Mono", monospace; font-style: italic; font-size: .9em; letter-spacing: -1px; }
 
 strong { color: #222; }
 
@@ -2280,13 +2280,7 @@ strong::before { content: "<strong>"; }
 
 strong::after { content: "</strong>"; }
 
-p::before { content: "<p>"; }
-
-p::after { content: "</p>"; }
-
-p::before, p::after { display: block; color: #333; margin-left: -20px; }
-
-p { margin-left: 20px; text-align: justify; }
+p { text-align: justify; }
 
 .pipe { font-family: "Roboto Mono", monospace; padding: 0 1px 0 1px; color: white; font-size: 1em; }
 
@@ -2355,10 +2349,6 @@ Subpage
 
 .about-text { background-color: transparent; border-radius: 10px; }
 
-.about-text p { margin-left: 0; }
-
-.about-text p::before, .about-text p::after { content: ""; }
-
 .tech-icons-horizontal { display: none; }
 
 /* ====================================
@@ -2391,6 +2381,8 @@ Work
 
 .modal-content { background-color: rgba(0, 0, 0, 0.8); color: white; }
 
+.modal-content *::before, .modal-content *::after { content: ""; }
+
 .modal-header { padding: 3px; }
 
 .modal-content h3 { text-align: center; font-size: 1.25em; font-family: "Fredoka One", cursive; color: #ff6633; }
@@ -2398,10 +2390,6 @@ Work
 h2.modal-title { text-align: center; font-size: 1.5em; padding: 10px 0; font-family: "Fredoka One", cursive; color: #fcbb3f; }
 
 .btn-secondary { background-color: black; }
-
-.modal-content *::before, .modal-content *::after { content: ""; }
-
-.modal-content p { margin-left: 0; }
 
 .modal-footer a { color: white; }
 

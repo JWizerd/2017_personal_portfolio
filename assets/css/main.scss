@@ -192,9 +192,8 @@ h2::after {
 h2::before,
 h2::after,
 strong::before,
-strong::after,
-p::before,
-p::after  {
+strong::after
+{
   font-family: $robot;
   font-style: italic;
   font-size: .9em;
@@ -213,22 +212,7 @@ strong::after {
   content: "</strong>";
 }
 
-p::before {
-  content: "<p>";
-}
-
-p::after {
-  content: "</p>";
-}
-
-p::before, p::after {
-  display: block;
-  color: #333;
-  margin-left: -20px;
-}
-
 p {
-  margin-left: 20px;
   text-align: justify;
 }
 
@@ -411,14 +395,6 @@ Subpage
   border-radius: 10px;
 }
 
-.about-text p {
-  margin-left: 0;
-}
-
-.about-text p::before, .about-text p::after {
-  content: "";
-}
-
 .tech-icons-horizontal {
   display: none;
 }
@@ -492,6 +468,10 @@ Work
   color: white;
 }
 
+.modal-content *::before, .modal-content *::after {
+  content: "";
+}
+
 .modal-header {
   padding: 3px;
 }
@@ -513,14 +493,6 @@ h2.modal-title {
 
 .btn-secondary {
   background-color: black;
-}
-
-.modal-content *::before, .modal-content *::after {
-  content: "";
-}
-
-.modal-content p {
-  margin-left: 0;
 }
 
 .modal-footer a {
