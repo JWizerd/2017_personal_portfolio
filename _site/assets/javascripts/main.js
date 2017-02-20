@@ -33,9 +33,23 @@
     );
   }
 
+  function loadViewOnClick(elm, view, location) {
+    var location = 'body' || view;
+    $(elm).click(function(e){
+      e.preventDefault();
+      $(location).load(view);
+    });
+  }
+
   $(document).ready(function() {
     addLinkTitlesToNavLinks();
     linkTitleOnHover();
     animateOnHover('.client-logo', 'tada');
+
+    /* single page navigation */
+    loadViewOnClick('.about', 'about.html');
+    loadViewOnClick('.contact', 'contact.html');
+    loadViewOnClick('.home', 'index.html');
+    loadViewOnClick('.work', 'work.html');
   });
 }(jQuery));
