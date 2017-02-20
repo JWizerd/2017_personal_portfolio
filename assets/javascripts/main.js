@@ -22,8 +22,20 @@
     });
   }
 
+  function animateOnHover(elm, animation) {
+    $(elm).hover(
+      function(){
+        $(this).addClass(animation);
+      },
+      function() {
+        $(this).removeClass(animation);
+      }
+    );
+  }
+
   $(document).ready(function() {
     addLinkTitlesToNavLinks();
     linkTitleOnHover();
+    animateOnHover('.client-logo', 'tada');
   });
 }(jQuery));

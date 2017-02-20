@@ -1,9 +1,34 @@
 [
   {
     "name": "Pikes Peak Plastics",
+    "description": "A turn key website solution for client user friendliness and extensibility. Built with Wordpress.",
+    "specs": ["Wordpress", "PHP", "jQuery", "Bootstrap", "RWD"],
+    "mainImage": "assets/img/desktop_pikes-peak-plastics-engineering-web-development.jpg",
+    "logo": "assets/img/logo_pikes-peak-plastics-engineering-web-design.png",
+    "modalID": "pikes-peak"
+  },
+  {
+    "name": "Eric A. Sunness: Attorney at Law",
     "description": "A turn key website solution for client user friendliness and extensibility.",
-    "specs": ["Wordpress", "PHP", "jQuery", "Bootstrap"],
-    "slideImage": "assets/img/desktop_eric-sunness-attorney-web-development.jpg",
-    "logo": "assets/img/logo_eric-sunness-attorney-web-design.png"
+    "specs": ["Ruby on Rails", "jQuery", "Bootstrap", "RWD"],
+    "mainImage": "assets/img/desktop_eric-sunness-attorney-web-development.jpg",
+    "logo": "assets/img/logo_eric-sunness-attorney-web-design.png",
+    "modalID": "eric-sunness"
+  },
+  {
+    "name": "Rossi Vucinovich PC",
+    "description": "A robust attorney website and blog designed to bring quality information to personal injury victims.",
+    "specs": ["Wordpress", "PHP", "jQuery", "RWD"],
+    "mainImage": "assets/img/desktop_rossi-vucinovich-lawyer-web-development.jpg",
+    "logo": "assets/img/logo_rossi-vucinovich-lawyer-web-design.png",
+    "modalID": "rvpc"
+  },
+  {
+    "name": "impactstud.io",
+    "description": "A turn key website solution for client user friendliness and extensibility.",
+    "specs": ["Ruby on Rails", "jQuery", "Bootstrap", "RWD"],
+    "mainImage": "assets/img/desktop_impactstudio-loveland-web-development.jpg",
+    "logo": "assets/img/logo_impactstudio-web-design.png",
+    "modalID": "impact"
   }
 ]
