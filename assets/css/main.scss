@@ -466,6 +466,8 @@ Work
 .modal-content {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
+  position: relative;
+  z-index: 2000;
 }
 
 .modal-content *::before, .modal-content *::after {

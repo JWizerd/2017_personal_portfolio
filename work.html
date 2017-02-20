@@ -1,23 +1,21 @@
 ---
-layout: default
 ---
-
-<div class="container-fluid">
+<div class="container-fluid subpage">
   <div class="row">
     <div class="col-md-12">
-      <h1 class="subpage-title">
+      <h1 class="subpage-title my-animate bounceInLeft">
         Recent Work
       </h1>
       <div>
-        <p>
+        <p class="my-animate lightSpeedIn">
           Below are a few of the recent projects I have created for my clients ranging from simple applications to highly customizable Wordpress Themes. <span class="apple">Click a logo</span> below to see a breakdown of each project.
         </p>
       </div>
     </div>
-    <ul class="col-md-12 bg-transparent clients">
+    <ul class="col-md-12 clients my-animate rotateInUpLeft">
       {% for client in site.data.clients %}
         <li class="col-md-3 col-sm-6 col-xs-6 client">
-              <div class="client-logo client-logo my-animate">
+              <div class="client-logo client-logo">
                 <img data-toggle="modal" data-target="#{{client.modalID}}" class="img-responsive" src="{{ site.baseurl }}/{{ client.logo }}" alt="{{ client.name }} Web Development">
               </div>
 

@@ -34,22 +34,38 @@
   }
 
   function loadViewOnClick(elm, view, location) {
-    var location = 'body' || view;
+    var location = '.view' || location;
     $(elm).click(function(e){
       e.preventDefault();
       $(location).load(view);
+      $.getScript('assets/javascripts/main.js');
     });
   }
 
+  function addAnimation(elm, animation) {
+    $(elm).addClass('my-animate ' + animation);
+  }
+
+  /* add animation before load for smoothest effect */
+  addAnimation('.subpage-title', 'bounceInLeft');
+
   $(document).ready(function() {
+
+    /* animations */
     addLinkTitlesToNavLinks();
     linkTitleOnHover();
     animateOnHover('.client-logo', 'tada');
+
 
     /* single page navigation */
     loadViewOnClick('.about', 'about.html');
     loadViewOnClick('.contact', 'contact.html');
     loadViewOnClick('.home', 'index.html');
     loadViewOnClick('.work', 'work.html');
+
+    /* bug fix for modal window and animation.css */
+    window.setTimeout(function() {
+      $('.clients').removeClass('my-animate rotateInUpLeft');
+    }, 3000);
   });
 }(jQuery));
