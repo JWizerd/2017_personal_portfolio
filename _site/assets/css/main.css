@@ -2395,6 +2395,20 @@ h2.modal-title { text-align: center; font-size: 1.75em; padding: 10px 0; font-fa
 
 .rwd-image { width: 100%; padding: 15px 0; }
 
+.client-review { background: white; padding: 15px 25px; color: black; }
+
+.client-review p, .client-review h4 { text-align: center; }
+
+.client-review h4 { font-weight: bold; font-size: 1.4em; }
+
+.client-review p::before { content: '\f10d'; font-family: FontAwesome; padding: 20px 0; font-size: 2em; display: block; }
+
+.review-pic { display: block; width: 125px; height: 125px; margin: 17px auto; border-radius: 180%; }
+
+.modal-content .dismiss-modal { position: absolute; top: 12px; right: 10px; color: white; background-color: transparent; border: none; font-family: "Fredoka One", cursive; font-size: 1.4em; opacity: .6; transition: .3s; }
+
+.modal-content .dismiss-modal:hover { opacity: 1; }
+
 /* ====================================
 Media Queries
 ==================================== */
@@ -2425,7 +2439,8 @@ Media Queries
   .my-name { font-size: 2.5em; line-height: 50px; }
   .hello, .subpage-title { font-size: 1.8em; }
   .subpage-title { font-size: 2.5em; } }
-@media all and (max-width: 491px) { .my-name span { display: none; } }
+@media all and (max-width: 491px) { .my-name span { display: none; }
+  .modal-content p { font-size: .7em; } }
 @media all and (max-width: 375px) { .my-name { font-size: 2em; line-height: 25px; }
   .hello, .subpage-title { font-size: 1.5em; }
   .tldr { display: block; font-size: .8em; }

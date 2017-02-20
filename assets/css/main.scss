@@ -504,6 +504,54 @@ h2.modal-title {
   padding: 15px 0;
 }
 
+.client-review {
+  background: rgba(255, 255, 255, 1);
+  padding: 15px 25px;
+  color: black;
+}
+
+.client-review p, .client-review h4 {
+  text-align: center;
+}
+
+.client-review h4 {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.client-review p::before {
+  content:'\f10d';
+  font-family: FontAwesome;
+  padding: 20px 0;
+  font-size: 2em;
+  display: block;
+}
+
+.review-pic {
+  display: block;
+  width: 125px;
+  height: 125px;
+  margin: 17px auto;
+  border-radius: 180%;
+}
+
+.modal-content .dismiss-modal {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-family: $fred;
+  font-size: 1.4em;
+  opacity: .6;
+  transition: .3s;
+}
+
+.modal-content .dismiss-modal:hover {
+  opacity: 1;
+}
+
 /* ====================================
 Media Queries
 ==================================== */
@@ -641,6 +689,10 @@ Media Queries
 @media all and (max-width: 491px) {
   .my-name span {
     display: none;
+  }
+
+  .modal-content p {
+    font-size: .7em;
   }
 }
 

@@ -10,7 +10,7 @@ layout: default
       </h1>
       <div>
         <p>
-          Below are a few of the recent client projects I have created ranging from simple Rails applications to highly customizable and custom Wordpress Themes. <span class="apple">Click the logo</span> to see a breakdown of each project.
+          Below are a few of the recent projects I have created for my clients ranging from simple applications to highly customizable Wordpress Themes. <span class="apple">Click a logo</span> below to see a breakdown of each project.
         </p>
       </div>
     </div>
@@ -25,6 +25,7 @@ layout: default
                 <article class="modal fade" id="{{client.modalID}}" tabindex="-1" role="dialog" aria-labelledby="{{client.modalID}}" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
+                      <button type="button" data-dismiss="modal" class="dismiss-modal">X</button>
                       <div class="modal-header">
                         <img src="{{client.mainImage}}" alt="{{client.name}}" class="img-responsive">
                         <h2 class="modal-title" id="exampleModalLabel">{{client.name}}</h2>
@@ -35,8 +36,26 @@ layout: default
                         <div class="rwd-image">
                           <img class="img-responsive" src="{{ site.baseurl }}/{{ client.rwdImage }}" alt="Responsive Web Design by Jeremiah Wodke">
                         </div>
-                        <p>I have an extensive approach to making sure that all client products are responsive on a multitude of devices (IE, CHROME, OPERA, FIREFOX etc.) using developer standard tools and manual testing through a range of in-house devices. The website I create for you will create a positive user experience on almost any device.</p>
+                        <p>I have an extensive workflow for making sure that all client products are responsive on a multitude of devices and browsers (IE, CHROME, OPERA, FIREFOX etc.) using developer standard tools and manual testing through a range of in-house devices. The websites I create stimulate the user experience on nearly all devices. For questions about unique devices please <a href="{{site.baseurl}}/contact.html">contact me</a></p>
+                        {% if client.techincalSpecs != "" %}
+                          <h3>Technical Description</h3>
+                          <p>{{ client.techincalSpecs }}</p>
+                          <ul class="specs">
+                            <li>{{ client.specs[0] }}</li>
+                            <li>{{ client.specs[1] }}</li>
+                            <li>{{ client.specs[2] }}</li>
+                            <li>{{ client.specs[3] }}</li>
+                          </ul>
+                        {% endif %}
                       </div>
+                      {% if client.review != "" %}
+                      <div class="client-review">
+                        <h3>Client Review</h3>
+                        <p>{{ client.review }}</p>
+                        <img class="review-pic" src="{{site.baseurl}}/{{client.reviewPic}}" alt="{{client.reviewer}}">
+                        <h4>{{ client.reviewer }}</h4>
+                      </div>
+                      {% endif %}
                       <div class="modal-footer">
                         <a href="{{ client.link }}" target="_blank">
                           <button type="button" class="btn btn-secondary website-link">Visit Website</button>

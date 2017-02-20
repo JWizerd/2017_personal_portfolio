@@ -8,7 +8,10 @@
     "modalID": "pikes-peak",
     "link": "http://pikespeakplastics.com",
     "rwdImage": "assets/img/rwd_pikes-peak-plastics-web-design.png",
-    "techincalSpecs": ""
+    "techincalSpecs": "For Pikes Peak Plastics, I knew my team and I wanted to use Wordpress for the Content Management System since the owner of the company already had prior experience with Wordpress. Utilizing Advanced Custom Fields and the Theme Customizer all written and visual content on the website was made editable from the backend along with conditional logic to add or remove features. For Frontend Behavior such as the gallery slider and css animations I chose to develop the features without a plugin to create minimalistic functionality to increase home page load times. From the design mock-ups to the website development and even the majority of the photography this website is a full represenation of my wide set of skills.",
+    "review": "",
+    "reviewer": "",
+    "reviewPic": ""
   },
   {
     "name": "Eric A. Sunness: Attorney at Law",
@@ -19,7 +22,10 @@
     "modalID": "eric-sunness",
     "link": "http://www.fortcollinsdui.com",
     "rwdImage": "assets/img/rwd_eric-sunness-web-design.png",
-    "techincalSpecs": ""
+    "techincalSpecs": "Eric was unsatisfied with his current website since it was outdated and was not producing the client leads that it once did. He needed a modern solution that was fast, lightweight and well organized to deliver content to his potential clients on a routine basis. The goal of his website was to create something so highly targeted towards DUI cases that victims would be able to quickly rise in search rankings with a limited advertising budget. From the design, to the development and even the majority of the photography this website showcased my wide range of skills and how they can be combined to create high quality websites.",
+    "review": "I could not be happier with the service provided by Jeremiah and Sam at impact studio. I own a law practice and retained the services of impact studio to design and create a website, as well as assist with search engine optimization. The website was very professionally done, and the level of customer service that I have received has been second to none. I would highly recommend impact studio. They have had a huge impact on the success of my firm.",
+    "reviewer": "Eric A. Sunness, Attorney",
+    "reviewPic": "assets/img/review_eric-sunness.jpg"
   },
   {
     "name": "Rossi Vucinovich PC",
@@ -30,7 +36,10 @@
     "modalID": "rvpc",
     "link": "http://www.railroad-injuries.com",
     "rwdImage": "assets/img/rwd_rossi-vucinovich-web-design.png",
-    "techincalSpecs": ""
+    "techincalSpecs": "I have worked with Rossi Vucinovich PC for almost 2 years and it has been amazing to the see transformation that my work has had on their law firm. During the two year period I have completely re-built their website from an outdated 'cliche' lawyer website to a modern, fully responsive, blogging application that is all based from extensive marketing and ux research of successful competitors for Personal Injury Lawyers. This website while utilzing wordpress has a lot of custom PHP to help organize data for the blogging functionality, organize attorney data into the respective attorney profiles and much more. While I cannot take sole credit on this theme since I did begin with a prebuilt theme I will say that if you were to compare the orginial theme with the functionality and design I have implemented you would find them indistinguishable and in my honest opinion, in favor of my newly designed version.",
+    "review": "Clean and Smart Design",
+    "reviewer": "Richard Wood - Firm Administrator",
+    "reviewPic": "assets/img/review_richard-wood.jpg"
   },
   {
     "name": "impactstud.io",
@@ -41,6 +50,9 @@
     "modalID": "impact",
     "link": "http://www.impactstud.io",
     "rwdImage": "assets/img/rwd_impactstudio-web-design-loveland.png",
-    "techincalSpecs": ""
+    "techincalSpecs": "",
+    "review": "",
+    "reviewer": "",
+    "reviewPic": ""
   }
 ]
