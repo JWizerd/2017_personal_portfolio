@@ -1,34 +1,46 @@
 [
   {
     "name": "Pikes Peak Plastics",
-    "description": "A turn key website solution for client user friendliness and extensibility. Built with Wordpress.",
+    "description": "A turn key website solution for client user friendliness and extensibility. Built with Wordpress and PHP7 for performance.",
     "specs": ["Wordpress", "PHP", "jQuery", "Bootstrap", "RWD"],
     "mainImage": "assets/img/desktop_pikes-peak-plastics-engineering-web-development.jpg",
     "logo": "assets/img/logo_pikes-peak-plastics-engineering-web-design.png",
-    "modalID": "pikes-peak"
+    "modalID": "pikes-peak",
+    "link": "http://pikespeakplastics.com",
+    "rwdImage": "assets/img/rwd_pikes-peak-plastics-web-design.png",
+    "techincalSpecs": ""
   },
   {
     "name": "Eric A. Sunness: Attorney at Law",
-    "description": "A turn key website solution for client user friendliness and extensibility.",
+    "description": "A turn key website solution for client user friendliness and extensibility. Eric is a renowned DUI and Criminal Defense Attorney in Northern Colorado. He came to me because he understood that as the world becomes more techonologically driven so will the marketing tactics of law firms.",
     "specs": ["Ruby on Rails", "jQuery", "Bootstrap", "RWD"],
     "mainImage": "assets/img/desktop_eric-sunness-attorney-web-development.jpg",
     "logo": "assets/img/logo_eric-sunness-attorney-web-design.png",
-    "modalID": "eric-sunness"
+    "modalID": "eric-sunness",
+    "link": "http://www.fortcollinsdui.com",
+    "rwdImage": "assets/img/rwd_eric-sunness-web-design.png",
+    "techincalSpecs": ""
   },
   {
     "name": "Rossi Vucinovich PC",
-    "description": "A robust attorney website and blog designed to bring quality information to personal injury victims.",
+    "description": "A robust attorney website and blog designed to bring quality information to personal injury victims. My first client as a freelance Web Designer and Internet Marketer. My Internet Marketing services have 'greatly increased the infrastructure of the company over the past year' - James Vucinovich, President of RVPC.",
     "specs": ["Wordpress", "PHP", "jQuery", "RWD"],
     "mainImage": "assets/img/desktop_rossi-vucinovich-lawyer-web-development.jpg",
     "logo": "assets/img/logo_rossi-vucinovich-lawyer-web-design.png",
-    "modalID": "rvpc"
+    "modalID": "rvpc",
+    "link": "http://www.railroad-injuries.com",
+    "rwdImage": "assets/img/rwd_rossi-vucinovich-web-design.png",
+    "techincalSpecs": ""
   },
   {
     "name": "impactstud.io",
-    "description": "A turn key website solution for client user friendliness and extensibility.",
+    "description": "My new start-up. The Web Design, Wireframes, Logos etc. designed by yours truly. This is my baby and I can't wait to see it grow.",
     "specs": ["Ruby on Rails", "jQuery", "Bootstrap", "RWD"],
     "mainImage": "assets/img/desktop_impactstudio-loveland-web-development.jpg",
     "logo": "assets/img/logo_impactstudio-web-design.png",
-    "modalID": "impact"
+    "modalID": "impact",
+    "link": "http://www.impactstud.io",
+    "rwdImage": "assets/img/rwd_impactstudio-web-design-loveland.png",
+    "techincalSpecs": ""
   }
 ]

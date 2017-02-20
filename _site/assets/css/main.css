@@ -2393,11 +2393,19 @@ Work
 
 .modal-header { padding: 3px; }
 
-.modal-title { text-align: center; font-size: 1.5em; padding: 10px 0; font-family: "Fredoka One", cursive; color: #fcbb3f; }
+.modal-content h3 { text-align: center; font-size: 1.25em; font-family: "Fredoka One", cursive; color: #ff6633; }
+
+h2.modal-title { text-align: center; font-size: 1.5em; padding: 10px 0; font-family: "Fredoka One", cursive; color: #fcbb3f; }
 
 .btn-secondary { background-color: black; }
 
-.modal-title::before, .modal-title::after { content: ""; }
+.modal-content *::before, .modal-content *::after { content: ""; }
+
+.modal-content p { margin-left: 0; }
+
+.modal-footer a { color: white; }
+
+.rwd-image { width: 100%; padding: 15px 0; }
 
 /* ====================================
 Media Queries

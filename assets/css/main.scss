@@ -496,7 +496,14 @@ Work
   padding: 3px;
 }
 
-.modal-title {
+.modal-content h3 {
+  text-align: center;
+  font-size: 1.25em;
+  font-family: $fred;
+  color: $mango;
+}
+
+h2.modal-title {
   text-align: center;
   font-size: 1.5em;
   padding: 10px 0;
@@ -508,8 +515,21 @@ Work
   background-color: black;
 }
 
-.modal-title::before, .modal-title::after {
+.modal-content *::before, .modal-content *::after {
   content: "";
+}
+
+.modal-content p {
+  margin-left: 0;
+}
+
+.modal-footer a {
+  color: white;
+}
+
+.rwd-image {
+  width: 100%;
+  padding: 15px 0;
 }
 
 /* ====================================
