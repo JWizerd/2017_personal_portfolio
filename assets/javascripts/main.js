@@ -54,9 +54,7 @@
 
     /* show load animations on window page load. note: .load is deprecated since jQuery 3.x */
     $(window).on("load", function(){
-      this.setTimeout(function() {
-        $('.load-screen').fadeOut('slow');
-      }, 1000);
+      $('.load-screen').fadeOut('slow');
     });
 
     /* animations */
