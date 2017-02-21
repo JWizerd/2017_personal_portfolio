@@ -14,10 +14,9 @@
 
   function loadViewOnClick(elm, view, location) {
     var location = '.view div' || location;
-    $(elm).one("click", function(e){
+    $(elm).one("click", function(e){ /* this function makes sure that events don't fire multiple times */
       e.preventDefault();
       $(location).load(view);
-      $.getScript('assets/javascripts/main.js');
     });
   }
 
