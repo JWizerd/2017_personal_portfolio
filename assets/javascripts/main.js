@@ -34,7 +34,7 @@
   }
 
   function loadViewOnClick(elm, view, location) {
-    var location = '.view' || location;
+    var location = '.view div' || location;
     $(elm).click(function(e){
       e.preventDefault();
       $(location).load(view);
@@ -60,7 +60,7 @@
     /* single page navigation */
     loadViewOnClick('.about', 'about.html');
     loadViewOnClick('.contact', 'contact.html');
-    loadViewOnClick('.home', 'index.html');
+    loadViewOnClick('.home', 'home.html');
     loadViewOnClick('.work', 'work.html');
 
     /* bug fix for modal window and animation.css */
