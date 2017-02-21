@@ -14,7 +14,7 @@
 
   function loadViewOnClick(elm, view, location) {
     var location = '.view div' || location;
-    $(elm).click(function(e){
+    $(elm).one("click", function(e){
       e.preventDefault();
       $(location).load(view);
       $.getScript('assets/javascripts/main.js');
