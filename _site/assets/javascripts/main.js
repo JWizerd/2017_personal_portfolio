@@ -72,8 +72,6 @@
     loadViewOnClick('.home', 'home.html');
     loadViewOnClick('.work', 'work.html');
 
-    formSpreeAjax();
-
     /* bug fix for modal window and animation.css */
     window.setTimeout(function() {
       $('.clients').removeClass('my-animate rotateInUpLeft');
