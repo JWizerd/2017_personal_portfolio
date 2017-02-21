@@ -2342,6 +2342,8 @@ Navigation
 
 .navigation ul li a:hover { color: #222; }
 
+.navigation ul li a:active, .navigation ul li a:focus { color: #222; text-decoration: none; }
+
 .navigation ul li a::after { content: ''; display: block; text-align: center; font-size: 9px; line-height: 0px; margin-left: -3px; }
 
 .navigation ul li a.home::after { content: "HOME"; }

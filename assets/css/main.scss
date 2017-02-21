@@ -388,6 +388,11 @@ Navigation
   color: #222;
 }
 
+.navigation ul li a:active, .navigation ul li a:focus {
+  color: #222;
+  text-decoration: none;
+}
+
 .navigation ul li a::after {
   content: '';
   display: block;
