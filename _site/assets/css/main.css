@@ -2338,9 +2338,21 @@ Navigation
 
 .navigation ul li:last-child { margin-bottom: 0; }
 
-.navigation ul li a { text-decoration: none; font-size: 1em; transition: .3s; }
+.navigation ul li a { font-size: 1em; display: block; line-height: 45px; height: 45px; position: relative; transition: .3s; }
 
-.navigation ul li a span { display: none; font-size: 13px; color: white; }
+.navigation ul li a:hover { color: #222; }
+
+.navigation ul li a::after { content: ''; display: block; text-align: center; font-size: 9px; line-height: 0px; margin-left: -3px; }
+
+.navigation ul li a.home::after { content: "HOME"; }
+
+.navigation ul li a.about::after { content: "ABOUT"; }
+
+.navigation ul li a.work::after { content: "PORTFOLIO"; }
+
+.navigation ul li a.contact::after { content: "CONTACT"; }
+
+.navigation ul li a.resume::after { content: "RESUME"; }
 
 /* ====================================
 Subpage
@@ -2429,7 +2441,7 @@ Media Queries
 @media all and (max-width: 768px) { *, body, h1, h2, h3, p, li, span, strong, blockquote { font-size: 16px; }
   .view { margin-left: 0; padding-top: 50px; }
   .navigation { height: 70px; width: 100%; z-index: 4; }
-  .navigation ul { padding: 17px 0 20px 0; flex-direction: row; align-items: flex-start; justify-content: space-around; height: 70px; }
+  .navigation ul { padding: 10px 0 20px 0; flex-direction: row; align-items: flex-start; justify-content: space-around; height: 70px; }
   .navigation ul li, .navigation ul li:last-child { margin-bottom: 0; }
   .navigation ul li a span { padding-top: 5px; }
   span.white, span.btn-red, span.btn-red:hover, span.my-name, span.hello, span.subpage-title { color: #c03727; }
