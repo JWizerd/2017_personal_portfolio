@@ -698,10 +698,15 @@ Media Queries
     padding-top: 50px;
   }
 
+  .load-screen {
+    width: 100vw;
+    height: 100vh;
+  }
+
   .navigation {
     height: 70px;
     width: 100%;
-    z-index: 4;
+    z-index: 2001;
   }
 
   .navigation ul {
