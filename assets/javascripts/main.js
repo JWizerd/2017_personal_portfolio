@@ -18,7 +18,6 @@
       e.preventDefault();
       $(location).load(view);
     });
-    $.getScript('assets/javascripts/main.js');
   }
 
   function addAnimation(elm, animation) {
