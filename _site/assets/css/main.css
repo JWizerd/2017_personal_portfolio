@@ -2456,8 +2456,13 @@ Media Queries
   .subpage-title { font-size: 2.5em; }
   .about-text p { text-align: left; }
   button.btn-subpage a, button.btn-red a { font-size: 1em; } }
-@media all and (min-width: 695px) and (max-width: 800px) { /* landscape orientation for smartphones display only a fully width orientation image */
-  .rotate-tablet { display: block; } }
+/* landscape orientation for smartphones display only a fully width orientation image */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { .rotate-tablet { display: block; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { .rotate-tablet { display: block; } }
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { .rotate-tablet { display: block; } }
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { .rotate-tablet { display: block; } }
 @media all and (max-width: 631px) { .my-name, .hello, .subpage-title { line-height: 30px; }
   .my-name { font-size: 2.5em; line-height: 50px; }
   .hello, .subpage-title { font-size: 1.8em; }
