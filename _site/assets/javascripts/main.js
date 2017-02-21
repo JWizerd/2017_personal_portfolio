@@ -28,38 +28,6 @@
   /* add animation before load for smoothest effect */
   addAnimation('.subpage-title', 'bounceInLeft');
 
-
-  // /* formspree */
-  // function formSpreeAjax() {
-  // var $contactForm = $('.contact-form');
-  // var $btn = $('.btn-submit');
-  // $contactForm.submit(function(e) {
-  // 	e.preventDefault();
-  // 	$.ajax({
-  // 		url: '//formspree.io/jeremiah@impactstud.io',
-  // 		method: 'POST',
-  // 		data: $(this).serialize(),
-  // 		dataType: 'json',
-  // 		beforeSend: function() {
-  //       $btn.addClass('alert--loading');
-  // 			$btn.prop('value', 'Sending Message...');
-  // 		},
-  // 		success: function(data) {
-  // 			$btn.find('.alert--loading').hide();
-  // 			$btn.prop('value', 'Message Sent!');
-  //       $btn.addClass('my-animate bounce sun');
-  //       window.setTimeout(function() {
-  //         $btn.removeClass('my-animate bounce bg-sun');
-  //       }, 3000)
-  // 		},
-  // 		error: function(err) {
-  // 			$contactForm.find('.alert--loading').hide();
-  // 			$contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
-  // 		}
-  // 	});
-  // });
-}
-
   $(document).ready(function() {
 
     /* animations */
