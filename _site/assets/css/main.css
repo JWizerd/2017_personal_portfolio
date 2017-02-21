@@ -2232,6 +2232,8 @@ span.apple:hover { color: red; }
 
 .sun { color: #fcbb3f; }
 
+.bg-sun { background-color: #fcbb3f; }
+
 .black { color: #111; }
 
 .text-shadow, .my-name, .hello, .subpage-title { -webkit-text-shadow: -4px 1px 10px #111; -moz-text-shadow: -4px 1px 10px #111; -ms-text-shadow: -4px 1px 10px #111; text-shadow: -4px 1px 10px #111; }
@@ -2378,7 +2380,11 @@ input:last-child { margin-bottom: 0; }
 
 .contact-form input, .contact-form textarea { border: 2px solid #fcbb3f; }
 
-.contact-form input[type="submit"] { border: none; margin-top: 0; transition: .2s; background-color: #c03727; }
+.contact-form input[type="submit"] { border: none; margin-top: 0; transition: .2s; background-color: #c03727; color: white !important; }
+
+.contact-form input[type="submit"]:focus { outline: 0; text-shadow: none; }
+
+.contact-form input[type="submit"].alert--loading { border: none; }
 
 .contact-form input:focus, .contact-form textarea:focus { border: 2px solid #c03727; box-shadow: none; color: #c03727; }
 

@@ -69,6 +69,10 @@ span.apple:hover {
   color: $sun;
 }
 
+.bg-sun {
+  background-color: $sun;
+}
+
 .black {
   color: #111;
 }
@@ -471,6 +475,16 @@ input:last-child {
   margin-top: 0;
   transition: .2s;
   background-color: $apple;
+  color: white !important;
+}
+
+.contact-form input[type="submit"]:focus {
+  outline: 0;
+  text-shadow: none;
+}
+
+.contact-form input[type="submit"].alert--loading {
+  border: none;
 }
 
 .contact-form input:focus, .contact-form textarea:focus {
