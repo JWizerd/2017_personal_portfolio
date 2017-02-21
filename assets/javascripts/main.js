@@ -12,16 +12,6 @@
     );
   }
 
-  // COME BACK TO LATER WITH FRESH MIND
-  // function loadViewOnClick(elm, view, location) {
-  //   var location = '.view div' || location;
-  //   $(elm).on("click", function(e){
-  //     e.preventDefault();
-  //     $(location).load(view);
-  //     $.getScript('assets/javascripts/main.js');
-  //   });
-  // }
-
   function addAnimation(elm, animation) {
     $(elm).addClass('my-animate ' + animation);
   }
