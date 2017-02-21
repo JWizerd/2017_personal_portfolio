@@ -299,13 +299,14 @@ button a, button a:hover {
 }
 
 .load-screen {
-  display: none;
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  margin-left: 80px;
+  width: 95vw;
   height: 100vh;
-  background: #333 url("../img/preloader.gif") center center no-repeat;
+  background: white url(../img/preloader.gif) center center no-repeat;
   z-index: 2000;
 }
 

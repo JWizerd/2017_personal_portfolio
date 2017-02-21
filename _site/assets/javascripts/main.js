@@ -68,12 +68,9 @@
 
     formSpreeAjax();
 
-
-    /* single page navigation */
-    // loadViewOnClick('.about', 'about.html');
-    // loadViewOnClick('.contact', 'contact.html');
-    // loadViewOnClick('.home', 'home.html');
-    // loadViewOnClick('.work', 'work.html');
+    $(window).load(function(){
+      $('.load-screen').fadeOut('slow');
+    });
 
     /* bug fix for modal window and animation.css */
     window.setTimeout(function() {
