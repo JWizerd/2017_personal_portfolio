@@ -2306,6 +2306,8 @@ button a, button a:hover { color: white; text-decoration: none; }
 
 .view { margin-left: 50px; }
 
+.rotate-tablet { display: none; position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; background: #333 url("../img/icon_device-orientation.png") center center no-repeat; z-index: 10; }
+
 /* ====================================
 Home
 ==================================== */
@@ -2434,7 +2436,8 @@ Media Queries
   .subpage-title { font-size: 2.5em; }
   .about-text p { text-align: left; }
   button.btn-subpage a, button.btn-red a { font-size: 1em; } }
-@media all and (min-width: 717px) and (max-width: 800px) { /* landscape orientation for smartphones display only a fully width orientation image */ }
+@media all and (min-width: 695px) and (max-width: 800px) { /* landscape orientation for smartphones display only a fully width orientation image */
+  .rotate-tablet { display: block; } }
 @media all and (max-width: 631px) { .my-name, .hello, .subpage-title { line-height: 30px; }
   .my-name { font-size: 2.5em; line-height: 50px; }
   .hello, .subpage-title { font-size: 1.8em; }
