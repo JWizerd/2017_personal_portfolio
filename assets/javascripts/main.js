@@ -66,6 +66,8 @@
     /* animations */
     animateOnHover('.client-logo', 'tada');
 
+    formSpreeAjax();
+
 
     /* single page navigation */
     // loadViewOnClick('.about', 'about.html');
