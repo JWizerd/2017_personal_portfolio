@@ -68,6 +68,7 @@
 
     formSpreeAjax();
 
+    /* show load animations on window page load */
     $(window).load(function(){
       $('.load-screen').fadeOut('slow');
     });
