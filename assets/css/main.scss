@@ -306,7 +306,7 @@ button a, button a:hover {
   width: 95vw;
   height: 100vh;
   background: #444 url("../img/loader.gif") center center no-repeat;
-  z-index: 2000;
+  z-index: 100;
 }
 
 /* ====================================
@@ -712,7 +712,7 @@ Media Queries
   .navigation {
     height: 70px;
     width: 100%;
-    z-index: 2001;
+    z-index: 101;
   }
 
   .navigation ul {

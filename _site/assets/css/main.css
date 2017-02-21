@@ -2310,7 +2310,7 @@ button a, button a:hover { color: white; text-decoration: none; }
 
 .rotate-tablet { display: none; position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; background: #333 url("../img/icon_device-orientation.png") center center no-repeat; z-index: 10; }
 
-.load-screen { position: absolute; top: 0; left: 0; margin-left: 80px; width: 95vw; height: 100vh; background: #444 url("../img/loader.gif") center center no-repeat; z-index: 2000; }
+.load-screen { position: absolute; top: 0; left: 0; margin-left: 80px; width: 95vw; height: 100vh; background: #444 url("../img/loader.gif") center center no-repeat; z-index: 100; }
 
 /* ====================================
 Home
@@ -2452,7 +2452,7 @@ Media Queries
 @media all and (max-width: 768px) { *, body, h1, h2, h3, p, li, span, strong, blockquote { font-size: 16px; }
   .view { margin-left: 0; padding-top: 50px; }
   .load-screen { width: 100vw; height: 100vh; margin-left: 0; }
-  .navigation { height: 70px; width: 100%; z-index: 2001; }
+  .navigation { height: 70px; width: 100%; z-index: 101; }
   .navigation ul { padding: 10px 0 20px 0; flex-direction: row; align-items: flex-start; justify-content: space-around; height: 70px; }
   .navigation ul li, .navigation ul li:last-child { margin-bottom: 0; }
   .navigation ul li a span { padding-top: 5px; }
@@ -2471,7 +2471,7 @@ Media Queries
   .my-name { font-size: 2.5em; line-height: 50px; }
   .hello, .subpage-title { font-size: 1.8em; }
   .subpage-title { font-size: 2.5em; } }
-@media all and (max-width: 510px) { .client-logo img.logo-img { width: 70%; margin: 0 auto; } }
+@media all and (max-width: 510px) { .client-logo img.logo-img { width: 100%; margin: 0 auto; } }
 @media all and (max-width: 491px) { .my-name span { display: none; }
   .modal-content p { font-size: .7em; } }
 @media all and (max-width: 375px) { .my-name { font-size: 2em; line-height: 25px; }
