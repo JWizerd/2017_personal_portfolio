@@ -2447,7 +2447,8 @@ Media Queries
   .my-name, .hello, .subpage-title { line-height: 40px; }
   .hello, .subpage-title { font-size: 1.8em; color: #222; }
   .my-name { font-size: 3em; margin-top: 0; color: #333; }
-  .subpage-title { font-size: 2.5em; } }
+  .subpage-title { font-size: 2.5em; }
+  .client-logo img.logo-img { width: 70%; margin: 0 auto; } }
 @media all and (max-width: 768px) { *, body, h1, h2, h3, p, li, span, strong, blockquote { font-size: 16px; }
   .view { margin-left: 0; padding-top: 50px; }
   .load-screen { width: 100vw; height: 100vh; margin-left: 0; }

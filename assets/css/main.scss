@@ -686,6 +686,11 @@ Media Queries
   .subpage-title {
     font-size: 2.5em;
   }
+
+  .client-logo img.logo-img {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 @media all and (max-width: 768px) {
