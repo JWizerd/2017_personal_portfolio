@@ -26,10 +26,6 @@
     $(elm).addClass('my-animate ' + animation);
   }
 
-  /* add animation before load for smoothest effect */
-  addAnimation('.subpage-title', 'bounceInLeft');
-
-
   /* formspree */
   function formSpreeAjax() {
   var $contactForm = $('.contact-form');
@@ -54,12 +50,20 @@
         }, 3000)
   		},
   		error: function(err) {
-  			$contactForm.find('.alert--loading').hide();
-  			$contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
-  		}
-  	});
+    			$contactForm.find('.alert--loading').hide();
+    			$contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+    		}
+    	});
+    });
+  }
+
+  /* add animation before load for smoothest effect */
+  addAnimation('.subpage-title', 'bounceInLeft');
+
+  /* show load animations on window page load */
+  $(window).load(function(){
+    $('.load-screen').fadeOut('slow');
   });
-}
 
   $(document).ready(function() {
 
@@ -67,11 +71,6 @@
     animateOnHover('.client-logo', 'tada');
 
     formSpreeAjax();
-
-    /* show load animations on window page load */
-    $(window).load(function(){
-      $('.load-screen').fadeOut('slow');
-    });
 
     /* bug fix for modal window and animation.css */
     window.setTimeout(function() {
