@@ -17,7 +17,9 @@
     $(elm).on("click", function(e){
       e.preventDefault();
       $(location).load(view);
+      $.getScript('assets/javascripts/main.js');
     });
+    $(elm).off("click");
   }
 
   function addAnimation(elm, animation) {
