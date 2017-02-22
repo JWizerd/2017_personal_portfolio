@@ -2319,15 +2319,15 @@ Home
 
 .my-name, .hello, .subpage-title { line-height: 95px; color: #fcbb3f; }
 
-.my-name { font-size: 5em; -webkit-animation-delay: 1.5s; animation-delay: 1.5s; }
+.my-name { font-size: 5em; -webkit-animation-delay: 2.5s; animation-delay: 2.5s; }
 
 .my-name span { font-size: inherit; }
 
-.hello, .subpage-title { font-size: 3.5em; line-height: 20px; margin-left: 0; -webkit-animation-delay: 0.5s; animation-delay: 0.5s; }
+.hello, .subpage-title { font-size: 3.5em; line-height: 20px; margin-left: 0; -webkit-animation-delay: 1.5s; animation-delay: 1.5s; }
 
 .hello::before, .subpage-title::before, .hello::after, .subpage-title::after { content: ""; }
 
-.home-bio-content { -webkit-animation-delay: 2s; animation-delay: 2s; }
+.home-bio-content { -webkit-animation-delay: 3s; animation-delay: 3s; }
 
 .btn-home { -webkit-animation-delay: 13s; animation-delay: 13s; }
 
@@ -2361,11 +2361,13 @@ Navigation
 /* ====================================
 Subpage
 ==================================== */
-.subpage-title { font-size: 3.5em; margin-bottom: 50px; }
+.subpage-title { font-size: 3.5em; margin-bottom: 50px; -webkit-animation-delay: 1.5s; animation-delay: 1.5s; }
 
-.tech-icons { margin-left: 50px; }
+.tech-icons { margin-left: 50px; -webkit-animation-delay: 3s; animation-delay: 3s; }
 
-.about-text { background-color: transparent; border-radius: 10px; }
+.about-text { background-color: transparent; border-radius: 10px; -webkit-animation-delay: 2s; animation-delay: 2s; }
+
+.about-buttons { -webkit-animation-delay: 1.75s; animation-delay: 1.75s; }
 
 .tech-icons-horizontal { display: none; }
 
@@ -2395,7 +2397,9 @@ input.btn-submit:hover { background-color: #ff6633; }
 /* ====================================
 Work
 ==================================== */
-.clients { border-radius: 5px; padding: 20px 5px; list-style: none; }
+.portfolio-text { -webkit-animation-delay: 2s; animation-delay: 2s; }
+
+.clients { border-radius: 5px; padding: 20px 5px; list-style: none; -webkit-animation-delay: 2.5s; animation-delay: 2.5s; }
 
 .client-logo { filter: grayscale(100%); display: flex; align-items: center; height: 75px; }
 
@@ -2438,7 +2442,7 @@ Media Queries
   button.btn-subpage { margin-top: 20px; }
   .hello, .subpage-title { font-size: 2.5em; }
   .my-name { font-size: 4em; }
-  .subpage-title { margin-bottom: 25px; } }
+  .subpage-title { margin-bottom: 25px; -webkit-animation-delay: 1.5s; animation-delay: 1.5s; } }
 @media all and (max-width: 991px) { .my-name, .hello, .subpage-title, .subpage-title { text-shadow: none; }
   .about-tech { display: none; }
   .tech-icons-horizontal { display: block; margin-bottom: 20px; }

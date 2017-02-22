@@ -334,7 +334,7 @@ Home
 
 .my-name {
   font-size: 5em;
-  @include animation-delay(1.5s);
+  @include animation-delay(2.5s);
 }
 
 .my-name span {
@@ -345,7 +345,7 @@ Home
   font-size: 3.5em;
   line-height: 20px;
   margin-left: 0;
-  @include animation-delay(.5s);
+  @include animation-delay(1.5s);
 }
 
 .hello::before, .hello::after {
@@ -353,7 +353,7 @@ Home
 }
 
 .home-bio-content {
-  @include animation-delay(2s);
+  @include animation-delay(3s);
 }
 
 .btn-home {
@@ -444,15 +444,22 @@ Subpage
   @extend .hello;
   font-size: 3.5em;
   margin-bottom: 50px;
+  @include animation-delay(1.5s);
 }
 
 .tech-icons {
   margin-left: 50px;
+  @include animation-delay(3s);
 }
 
 .about-text {
   background-color: transparent;
   border-radius: 10px;
+  @include animation-delay(2s);
+}
+
+.about-buttons {
+  @include animation-delay(1.75s);
 }
 
 .tech-icons-horizontal {
@@ -515,10 +522,15 @@ input.btn-submit:hover {
 /* ====================================
 Work
 ==================================== */
+.portfolio-text {
+  @include animation-delay(2s);
+}
+
 .clients {
   border-radius: 5px;
   padding: 20px 5px;
   list-style: none;
+  @include animation-delay(2.5s);
 }
 
 .client-logo {
@@ -649,6 +661,7 @@ Media Queries
 
   .subpage-title {
     margin-bottom: 25px;
+    @include animation-delay(1.5s);
   }
 }
 
