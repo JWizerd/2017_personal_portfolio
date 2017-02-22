@@ -527,14 +527,14 @@ input.btn-submit:hover {
 Work
 ==================================== */
 .portfolio-text {
-  @include animation-delay(2s);
+  @include animation-delay(2.5s);
 }
 
 .clients {
   border-radius: 5px;
   padding: 20px 5px;
   list-style: none;
-  @include animation-delay(2.5s);
+  @include animation-delay(3s);
 }
 
 .client-logo {
