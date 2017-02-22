@@ -401,11 +401,7 @@ Navigation
   transition: .3s;
 }
 
-.navigation ul li a:hover {
-  color: #222;
-}
-
-.navigation ul li a:active, .navigation ul li a:focus {
+.navigation ul li a:focus, .navigation ul li a:active, .navigation ul li a:hover {
   color: #222;
   text-decoration: none;
 }
