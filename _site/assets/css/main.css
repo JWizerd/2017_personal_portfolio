@@ -2308,7 +2308,7 @@ button a, button a:hover { color: white; text-decoration: none; }
 
 .view { margin-left: 50px; }
 
-.rotate-tablet { display: none; position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; background: #333 url("../img/icon_device-orientation.png") center center no-repeat; z-index: 10; }
+.rotate-tablet { display: none; position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; background: #333 url("../img/icon_device-orientation.png") center center no-repeat; z-index: 102; }
 
 .load-screen { position: absolute; top: 0; left: 0; margin-left: 80px; width: 95vw; height: 100vh; background: #444 url("../img/loader.gif") center center no-repeat; z-index: 100; }
 
