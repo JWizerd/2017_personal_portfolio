@@ -2374,6 +2374,8 @@ Subpage
 /* ====================================
 Email
 ==================================== */
+.contact-form { -webkit-animation-delay: 2s; animation-delay: 2s; }
+
 input { margin-bottom: 10px; }
 
 input:last-child { margin-bottom: 0; }

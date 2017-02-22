@@ -470,6 +470,10 @@ Subpage
 Email
 ==================================== */
 
+.contact-form {
+  @include animation-delay(2s);
+}
+
 input {
   margin-bottom: 10px;
 }
