@@ -65,7 +65,7 @@
     /* bug fix for modal window and animation.css */
     window.setTimeout(function() {
       $('.clients').removeClass('my-animate rotateInUpLeft');
-    }, 3000);
+    }, 3500);
 
   });
 

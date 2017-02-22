@@ -2401,7 +2401,7 @@ Work
 ==================================== */
 .portfolio-text { -webkit-animation-delay: 2.5s; animation-delay: 2.5s; }
 
-.clients { border-radius: 5px; padding: 20px 5px; list-style: none; -webkit-animation-delay: 3s; animation-delay: 3s; }
+.clients { border-radius: 5px; padding: 20px 5px; list-style: none; -webkit-animation-delay: 2.5s; animation-delay: 2.5s; }
 
 .client-logo { filter: grayscale(100%); display: flex; align-items: center; height: 75px; }
 
