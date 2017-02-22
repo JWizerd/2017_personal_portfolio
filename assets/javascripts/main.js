@@ -52,7 +52,7 @@
 
   /* show load animations on window page load. note: .load is deprecated since jQuery 3.x */
   $(window).on("load", function(){
-    $('.load-screen').addClass('bounceOutRight');
+    $('.load-screen').fadeOut(1000);
   });
 
   $(document).ready(function() {
