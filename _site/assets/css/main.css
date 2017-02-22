@@ -2266,7 +2266,7 @@ Animations
 /* ====================================
 General
 ==================================== */
-*, body, h1, h2, h3, p, li, span, strong, blockquote { font-size: 18px; }
+*, body, h1, h2, h3, p, li, span, strong, blockquote { font-size: 18px; -webkit-appearance: none; }
 
 h1, h2, h3, p, li, blockquote { line-height: 25px; }
 
