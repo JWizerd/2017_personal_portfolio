@@ -2474,7 +2474,8 @@ Media Queries
 @media all and (max-width: 631px) { .my-name, .hello, .subpage-title { line-height: 30px; }
   .my-name { font-size: 2.5em; line-height: 50px; }
   .hello, .subpage-title { font-size: 1.8em; }
-  .subpage-title { font-size: 2.5em; } }
+  .subpage-title { font-size: 2.5em; }
+  .portfolio-text { text-align: left; } }
 @media all and (max-width: 510px) { .client-logo img.logo-img { width: 100%; margin: 0 auto; } }
 @media all and (max-width: 491px) { .my-name span { display: none; }
   .modal-content p { font-size: .7em; } }
