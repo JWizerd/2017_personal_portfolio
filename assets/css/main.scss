@@ -334,7 +334,7 @@ Home
 
 .my-name {
   font-size: 5em;
-  @include animation-delay(2.5s);
+  @include animation-delay(2s);
 }
 
 .my-name span {
@@ -345,7 +345,7 @@ Home
   font-size: 3.5em;
   line-height: 20px;
   margin-left: 0;
-  @include animation-delay(1.5s);
+  @include animation-delay(1.25s);
 }
 
 .hello::before, .hello::after {
@@ -353,7 +353,7 @@ Home
 }
 
 .home-bio-content {
-  @include animation-delay(3s);
+  @include animation-delay(2.25s);
 }
 
 .btn-home {
@@ -530,14 +530,14 @@ input.btn-submit:hover {
 Work
 ==================================== */
 .portfolio-text {
-  @include animation-delay(2.5s);
+  @include animation-delay(1.5s);
 }
 
 .clients {
   border-radius: 5px;
   padding: 20px 5px;
   list-style: none;
-  @include animation-delay(2.5s);
+  @include animation-delay(1.5s);
 }
 
 .client-logo {
