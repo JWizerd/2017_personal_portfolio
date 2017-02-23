@@ -444,18 +444,21 @@ Subpage
   @extend .hello;
   font-size: 3.5em;
   margin-bottom: 50px;
-  @include animation-delay(1.5s);
+  @include animation-delay(1s);
 }
 
 .tech-icons {
   margin-left: 50px;
-  @include animation-delay(3s);
+}
+
+.tech-icons, .tech-icons-horizontal {
+  @include animation-delay(2s);
 }
 
 .about-text {
   background-color: transparent;
   border-radius: 10px;
-  @include animation-delay(2s);
+  @include animation-delay(1.5s);
 }
 
 .about-buttons {
@@ -665,7 +668,7 @@ Media Queries
 
   .subpage-title {
     margin-bottom: 25px;
-    @include animation-delay(1.5s);
+    @include animation-delay(1s);
   }
 }
 

@@ -2361,11 +2361,13 @@ Navigation
 /* ====================================
 Subpage
 ==================================== */
-.subpage-title { font-size: 3.5em; margin-bottom: 50px; -webkit-animation-delay: 1.5s; animation-delay: 1.5s; }
+.subpage-title { font-size: 3.5em; margin-bottom: 50px; -webkit-animation-delay: 1s; animation-delay: 1s; }
 
-.tech-icons { margin-left: 50px; -webkit-animation-delay: 3s; animation-delay: 3s; }
+.tech-icons { margin-left: 50px; }
 
-.about-text { background-color: transparent; border-radius: 10px; -webkit-animation-delay: 2s; animation-delay: 2s; }
+.tech-icons, .tech-icons-horizontal { -webkit-animation-delay: 2s; animation-delay: 2s; }
+
+.about-text { background-color: transparent; border-radius: 10px; -webkit-animation-delay: 1.5s; animation-delay: 1.5s; }
 
 .about-buttons { -webkit-animation-delay: 1.75s; animation-delay: 1.75s; }
 
@@ -2444,7 +2446,7 @@ Media Queries
   button.btn-subpage { margin-top: 20px; }
   .hello, .subpage-title { font-size: 2.5em; }
   .my-name { font-size: 4em; }
-  .subpage-title { margin-bottom: 25px; -webkit-animation-delay: 1.5s; animation-delay: 1.5s; } }
+  .subpage-title { margin-bottom: 25px; -webkit-animation-delay: 1s; animation-delay: 1s; } }
 @media all and (max-width: 991px) { .my-name, .hello, .subpage-title, .subpage-title { text-shadow: none; }
   .about-tech { display: none; }
   .tech-icons-horizontal { display: block; margin-bottom: 20px; }
