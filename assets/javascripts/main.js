@@ -35,9 +35,13 @@
   			$btn.find('.alert--loading').hide();
   			$btn.prop('value', 'Message Sent!');
         $btn.addClass('my-animate bounce sun');
+        $contactForm.reset();
         window.setTimeout(function() {
           $btn.removeClass('my-animate bounce bg-sun');
-        }, 3000)
+        }, 3000);
+        window.setTimeout(function() {
+          window.location.href = "/";
+        });
   		},
   		error: function(err) {
     			$contactForm.find('.alert--loading').hide();
