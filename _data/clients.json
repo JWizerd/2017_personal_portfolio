@@ -40,19 +40,5 @@
     "review": "Clean and Smart Design",
     "reviewer": "Richard Wood - Firm Administrator",
     "reviewPic": "assets/img/review_richard-wood.jpg"
-  },
-  {
-    "name": "impactstud.io",
-    "description": "My new start-up. The Web Design, Wireframes, Logos etc. designed by yours truly. This is my baby and I can't wait to see it grow.",
-    "specs": ["Ruby on Rails", "jQuery", "Bootstrap", "RWD"],
-    "mainImage": "assets/img/desktop_impactstudio-loveland-web-development.jpg",
-    "logo": "assets/img/logo_impactstudio-web-design.png",
-    "modalID": "impact",
-    "link": "http://www.impactstud.io",
-    "rwdImage": "assets/img/rwd_impactstudio-web-design-loveland.png",
-    "techincalSpecs": "",
-    "review": "",
-    "reviewer": "",
-    "reviewPic": ""
   }
 ]
