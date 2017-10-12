@@ -40,7 +40,7 @@ layout: default
                           <h3>Technical Description</h3>
                           <p>{{ client.techincalSpecs }}</p>
                           <ul class="specs">
-                          {% for spec in site.data.specs %}
+                          {% for spec in client.specs %}
                             <li>{{ spec }}</li>
                           {% endfor %}
                           </ul>
