@@ -29,8 +29,8 @@
   },
   {
     "name": "Rossi Vucinovich PC",
-    "description": "A robust attorney website and blog designed to bring quality information to personal injury victims. My first client as a freelance Web Designer and Internet Marketer. My Internet Marketing services have 'greatly increased the infrastructure of the company over the past year' - James Vucinovich, President of RVPC.",
-    "specs": ["Wordpress", "PHP", "jQuery", "RWD"],
+    "description": "A robust attorney website and blog designed to bring quality information to railroad injury victims. My first client as a freelance Web Designer and Internet Marketer. My Internet Marketing services have 'greatly increased the infrastructure of the company over the past year' - James Vucinovich, President of RVPC.",
+    "specs": ["Wordpress", "PHP", "jQuery", "RWD", "SASS"],
     "mainImage": "assets/img/desktop_rossi-vucinovich-lawyer-web-development.jpg",
     "logo": "assets/img/logo_rossi-vucinovich-lawyer-web-design.png",
     "modalID": "rvpc",
@@ -40,5 +40,18 @@
     "review": "Clean and Smart Design",
     "reviewer": "Richard Wood - Firm Administrator",
     "reviewPic": "assets/img/review_richard-wood.jpg"
-  }
+  },
+  {
+    "name": "Torrent Software",
+    "description": "A small custom internal CMS built to manage diagnostic information for an innovative health care software company.",
+    "specs": ["PHP", "jQuery", "Bootstrap", "RWD", "MVC", "Object Oriented Design", "SASS", "Flight: A PHP Micro-Framework"],
+    "mainImage": "assets/img/desktop_pikes-peak-plastics-engineering-web-development.jpg",
+    "logo": "assets/img/logo_pikes-peak-plastics-engineering-web-design.png",
+    "modalID": "torrent-software",
+    "link": "http://torrent-software-sandbox.madwirebuild2.com",
+    "rwdImage": "assets/img/rwd_pikes-peak-plastics-web-design.png",
+    "techincalSpecs": "This client needed a small content management system that will allow their users to login, view their healthcare diagnosis and care plan and print off resources. On the administartive side, the client needed functionality to manage users, run CRUD operations on diagnostic content and their relational care plan phases. Wordpress seemed like overkill and this was a great opportunity for me to utilize my knowledge of object oriented programming, the model view controller paradigm and relational database design",
+    "review": "Hey man just wanted to say thanks for all your hard work on this. You’re helping someone’s dream become a reality! Couldn’t have done this without your ambition and execution excellence as a developer!",
+    "reviewer": "Josh Bacon (Manager / Custom Development Team Lead at Madwire Media)",
+  },
 ]
