@@ -40,10 +40,9 @@ layout: default
                           <h3>Technical Description</h3>
                           <p>{{ client.techincalSpecs }}</p>
                           <ul class="specs">
-                            <li>{{ client.specs[0] }}</li>
-                            <li>{{ client.specs[1] }}</li>
-                            <li>{{ client.specs[2] }}</li>
-                            <li>{{ client.specs[3] }}</li>
+                          {% for spec in site.data.specs %}
+                            <li>{{ spec }}</li>
+                          {% endfor %}
                           </ul>
                         {% endif %}
                       </div>
@@ -51,7 +50,9 @@ layout: default
                       <div class="client-review">
                         <h3>Client Review</h3>
                         <p>{{ client.review }}</p>
+                        {% if client.reviewPic != "" %}
                         <img class="review-pic" src="{{site.baseurl}}/{{client.reviewPic}}" alt="{{client.reviewer}}">
+                        {% endif %}
                         <h4>{{ client.reviewer }}</h4>
                       </div>
                       {% endif %}
