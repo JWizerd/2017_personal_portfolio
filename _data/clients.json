@@ -52,6 +52,6 @@
     "rwdImage": "assets/img/rwd_pikes-peak-plastics-web-design.png",
     "techincalSpecs": "This client needed a small content management system that will allow their users to login, view their healthcare diagnosis and care plan and print off resources. On the administartive side, the client needed functionality to manage users, run CRUD operations on diagnostic content and their relational care plan phases. Wordpress seemed like overkill and this was a great opportunity for me to utilize my knowledge of object oriented programming, the model view controller paradigm and relational database design",
     "review": "Hey man just wanted to say thanks for all your hard work on this. You’re helping someone’s dream become a reality! Couldn’t have done this without your ambition and execution excellence as a developer!",
-    "reviewer": "Josh Bacon (Manager / Custom Development Team Lead at Madwire Media)",
+    "reviewer": "Josh Bacon (Manager at Madwire Media)",
   },
 ]
