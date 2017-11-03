@@ -50,7 +50,7 @@
     "modalID": "torrent-software",
     "link": "http://torrent-software-sandbox.madwirebuild2.com",
     "rwdImage": "",
-    "techincalSpecs": "This client needed a small content management system that will allow their users to login, view their healthcare diagnosis and care plan and print off resources. On the administartive side, the client needed functionality to manage users, run CRUD operations on diagnostic content and their relational care plan phases. Wordpress seemed like overkill and this was a great opportunity for me to utilize my knowledge of object oriented programming, the model view controller paradigm and relational database design",
+    "techincalSpecs": "This client needed a small content management system that will allow their users to login, view their healthcare care plans based from unique diagnostic codes and print off resources related to a diagnosis. On the administartive side, the client needed functionality to manage users, run CRUD operations on diagnostic content and their related care plan phases. Initially this build was developed as a static POC and then was continuously developed over the course 3 months. This was a great opportunity for me to prove my knowledge of application development to my team leads and further my knowledge of object oriented programming, the model view controller paradigm and relational database design.",
     "review": "Hey man just wanted to say thanks for all your hard work on this. You’re helping someone’s dream become a reality! Couldn’t have done this without your ambition and execution excellence as a developer!",
     "reviewer": "Josh Bacon (Manager at Madwire Media)",
     "reviewPic": ""
