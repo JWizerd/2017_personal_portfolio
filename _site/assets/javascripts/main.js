@@ -1,5 +1,5 @@
 (function($){
-  // Immediately Invoked Fucntion Expresion invoked to create a new execution context therefore creating encapsulation any variables from the global object
+  // Immediately Invoked Fucntion Expresion invoked to create a new execution context therefore encapsulating any variables from the global object
 
   function animateOnHover(elm, animation) {
     $(elm).hover(
@@ -35,9 +35,13 @@
   			$btn.find('.alert--loading').hide();
   			$btn.prop('value', 'Message Sent!');
         $btn.addClass('my-animate bounce sun');
+        $(".contact-form")[0].reset();
         window.setTimeout(function() {
           $btn.removeClass('my-animate bounce bg-sun');
-        }, 3000)
+        }, 2000);
+        window.setTimeout(function() {
+          window.location.href = "/";
+        }, 3000);
   		},
   		error: function(err) {
     			$contactForm.find('.alert--loading').hide();

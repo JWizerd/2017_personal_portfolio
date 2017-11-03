@@ -2319,15 +2319,15 @@ Home
 
 .my-name, .hello, .subpage-title { line-height: 95px; color: #fcbb3f; }
 
-.my-name { font-size: 5em; -webkit-animation-delay: 2.5s; animation-delay: 2.5s; }
+.my-name { font-size: 5em; -webkit-animation-delay: 2s; animation-delay: 2s; }
 
 .my-name span { font-size: inherit; }
 
-.hello, .subpage-title { font-size: 3.5em; line-height: 20px; margin-left: 0; -webkit-animation-delay: 1.5s; animation-delay: 1.5s; }
+.hello, .subpage-title { font-size: 3.5em; line-height: 20px; margin-left: 0; -webkit-animation-delay: 1.25s; animation-delay: 1.25s; }
 
 .hello::before, .subpage-title::before, .hello::after, .subpage-title::after { content: ""; }
 
-.home-bio-content { -webkit-animation-delay: 3s; animation-delay: 3s; }
+.home-bio-content { -webkit-animation-delay: 2.25s; animation-delay: 2.25s; }
 
 .btn-home { -webkit-animation-delay: 13s; animation-delay: 13s; }
 
@@ -2401,9 +2401,9 @@ input.btn-submit:hover { background-color: #ff6633; }
 /* ====================================
 Work
 ==================================== */
-.portfolio-text { -webkit-animation-delay: 2.5s; animation-delay: 2.5s; }
+.portfolio-text { -webkit-animation-delay: 1.5s; animation-delay: 1.5s; }
 
-.clients { border-radius: 5px; padding: 20px 5px; list-style: none; -webkit-animation-delay: 2.5s; animation-delay: 2.5s; }
+.clients { border-radius: 5px; padding: 20px 5px; list-style: none; -webkit-animation-delay: 1.5s; animation-delay: 1.5s; }
 
 .client-logo { filter: grayscale(100%); display: flex; align-items: center; height: 75px; }
 
