@@ -47,7 +47,7 @@
     "specs": ["eCommerce Development", "PHP", "Wordpress", "WooCommerce", "jQuery", "Bootstrap", "RWD"],
     "mainImage": "assets/img/desktop_impact-canopies-ecommerce.jpg",
     "logo": "assets/img/logo_impact.png",
-    "modalID": "torrent-software",
+    "modalID": "impact-canopy",
     "link": "http://impactcanopy.com",
     "rwdImage": "",
     "techincalSpecs": "Impact Canopies was looking to simplify their website so we mitigated a lot of the frontend functionality to simpler design while still keeping the internal functionality and support for international clients, custom project management, and tailored product functionality for their vast amount of product variations. This site was built while working at Madwire Media.",
