@@ -14,20 +14,6 @@
     "reviewPic": ""
   },
   {
-    "name": "Eric A. Sunness: Attorney at Law",
-    "description": "A turn key website solution for client user friendliness and extensibility. Eric is a renowned DUI and Criminal Defense Attorney in Northern Colorado. He came to me because he understood that as the world becomes more techonologically driven so will the marketing tactics of law firms.",
-    "specs": ["Ruby on Rails", "jQuery", "Bootstrap", "RWD"],
-    "mainImage": "assets/img/desktop_eric-sunness-attorney-web-development.jpg",
-    "logo": "assets/img/logo_eric-sunness-attorney-web-design.png",
-    "modalID": "eric-sunness",
-    "link": "http://www.fortcollinsdui.com",
-    "rwdImage": "assets/img/rwd_eric-sunness-web-design.png",
-    "techincalSpecs": "Eric was unsatisfied with his current website since it was outdated and was not producing the client leads that it once did. He needed a modern solution that was fast, lightweight and well organized to deliver content to his potential clients on a routine basis. The goal of his website was to create something so highly targeted towards DUI cases that victims would be able to quickly rise in search rankings with a limited advertising budget. From the design, to the development and even the majority of the photography this website showcased my wide range of skills and how they can be combined to create high quality websites.",
-    "review": "I could not be happier with the service provided by Jeremiah and Sam have provided. I own a law practice and retained their services to design and create a website, as well as assist with search engine optimization. The website was very professionally done, and the level of customer service that I have received has been second to none. I would highly recommend them. They have had a huge impact on the success of my firm.",
-    "reviewer": "Eric A. Sunness, Attorney",
-    "reviewPic": "assets/img/review_eric-sunness.jpg"
-  },
-  {
     "name": "Rossi Vucinovich PC",
     "description": "A robust attorney website and blog designed to bring quality information to railroad injury victims. My first client as a freelance Web Designer and Internet Marketer. My Internet Marketing services have 'greatly increased the infrastructure of the company over the past year' - James Vucinovich, President of RVPC.",
     "specs": ["Wordpress", "PHP", "jQuery", "RWD", "SASS"],
@@ -55,4 +41,18 @@
     "reviewer": "Josh Bacon (Manager at Madwire Media)",
     "reviewPic": ""
   },
+  {
+    "name": "Impact Canopies",
+    "description": "A robust eCommerce website built with WooCommerce",
+    "specs": ["eCommerce Development", "PHP", "Wordpress", "WooCommerce", "jQuery", "Bootstrap", "RWD"],
+    "mainImage": "assets/img/desktop_impact-canopies-ecommerce.jpg",
+    "logo": "assets/img/logo_impact.png",
+    "modalID": "torrent-software",
+    "link": "http://impactcanopy.com",
+    "rwdImage": "",
+    "techincalSpecs": "Impact Canopies was looking to simplify their website so we mitigated a lot of the frontend functionality to simpler design while still keeping the internal functionality and support for international clients, custom project management, and tailored product functionality for their vast amount of product variations. This site was built while working at Madwire Media.",
+    "review": "",
+    "reviewer": "",
+    "reviewPic": ""
+  }
 ]
