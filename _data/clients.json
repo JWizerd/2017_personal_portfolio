@@ -40,7 +40,11 @@
     "review": "Hey man just wanted to say thanks for all your hard work on this. You’re helping someone’s dream become a reality! Couldn’t have done this without your ambition and execution excellence as a developer!",
     "reviewer": "Josh Bacon (Manager at Madwire Media)",
     "reviewPic": ""
-  },
+  }
+]
+
+/*
+,
   {
     "name": "Impact Canopies",
     "description": "A robust eCommerce website built with WooCommerce",
@@ -55,4 +59,4 @@
     "reviewer": "",
     "reviewPic": ""
   }
-]
+ */
