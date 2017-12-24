@@ -342,11 +342,6 @@ button a, button a:hover {
   padding: 10px 26px;
 }
 
-.drawer-open {
-  width: 50% !important;
-  padding: 10px 26px; 
-}
-
 #repos {
   padding-left: 0;
   list-style: none;
@@ -850,8 +845,8 @@ Media Queries
     font-size: 1em;
   }
 
-  .drawer-open {
-    width: 100% !important;
+  .drawer {
+    width: 100%;
   }
 
   .repo-link {
