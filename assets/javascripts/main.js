@@ -76,10 +76,12 @@
     })
   }
 
-  function toggleDrawerMenu() {
+  function toggleDrawerMenu(elm) {
     /* drawer menu */
-    event.preventDefault();
-    $('.drawer').toggleClass('drawer-open');
+    $(elm).click(function(e){
+      e.preventDefault();
+      $('.drawer').toggleClass('drawer-open');
+    })
   }
 
   /* add animation before load for smoothest effect */
@@ -103,10 +105,7 @@
     }, 3500);
 
     /* drawer menu */
-    $('.fa-github').parent().click(function(e){
-      e.preventDefault();
-      $('.drawer').toggleClass('drawer-open');
-    })
+    toggleDrawerMenu('.github-link')
 
     /* Get GitHub Repos from Public REST API */
     GitHubRepos()
