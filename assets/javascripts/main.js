@@ -71,6 +71,12 @@
       $('.clients').removeClass('my-animate rotateInUpLeft');
     }, 3500);
 
+    /* drawer menu */
+    $('.fa-github').click(function(e){
+      e.parent().preventDefault();
+      $('.drawer').animate({width:'toggle'});
+    })
+
   });
 
 }(jQuery));
