@@ -92,8 +92,10 @@
       if ($('.drawer').hasClass('bounceInLeft')) {
         $('.drawer').removeClass('bounceInLeft')
         $('.drawer').addClass('bounceOutLeft')
-      } else if($('.drawer').hasClass('bounceOutLeft')) {
+      } else if ($('.drawer').hasClass('bounceOutLeft')) {
         $('.drawer').removeClass('bounceOutLeft')
+        $('.drawer').addClass('bounceInLeft')
+      } else {
         $('.drawer').addClass('bounceInLeft')
       }
     })
