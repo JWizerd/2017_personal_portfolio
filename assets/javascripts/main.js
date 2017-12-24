@@ -76,7 +76,7 @@
       e.preventDefault();
       $('.drawer').animate(
         { 
-          width: '50%'
+          width: 'toggle'
         }, 
         350
       )
