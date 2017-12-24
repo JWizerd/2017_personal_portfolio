@@ -70,7 +70,7 @@
       if (index === 0) {
         $('#repos').before(
           '<div class="gh-info text-center">' +
-            '<p><img class="gh-avatar" src="'+ repo.owner.avatar_url +'" alt="GitHub Profile Avatar"></p>' +
+            '<p><a href="'+ repo.owner.html_url +'"><img class="gh-avatar" src="'+ repo.owner.avatar_url +'" alt="GitHub Profile Avatar"></a></p>' +
             '<p class="gh-username lead">' + repo.owner.login + '</p>' +
             '<p class="gh-profile"><a href="'+ repo.owner.html_url +'">View Profile</a></p>' +
            '</div><!-- end gh info -->'

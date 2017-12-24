@@ -40,6 +40,11 @@ $robot: 'Roboto Mono', monospace;
   height: 100%;
 }
 
+.text-center {
+  width: 100% !important;
+  max-width: 100%;
+}
+
 .full-window {
   width: 100vw;
   height: 100vh;
@@ -341,6 +346,33 @@ button a, button a:hover {
 #repos {
   padding-left: 0;
   list-style: none;
+}
+
+.gh-info {
+  padding: 30px 0;
+  margin: 20px 0;
+  border: 2px solid #444;
+  box-shadow: 1px 1px 10px black;
+
+  a:hover img {
+    filter: grayscale(100%);
+    transform: rotate(360deg);
+  }
+
+  img {
+    max-width: 20%;
+    border-radius: 50%;
+    transition: ease all .3s;
+  }
+
+  p {
+    text-align: center;
+    margin: 0;
+  }
+
+  p.gh-username {
+    margin-top: 15px;
+  }
 }
 
 .repo, 
