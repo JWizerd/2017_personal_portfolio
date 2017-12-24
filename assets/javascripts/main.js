@@ -72,7 +72,8 @@
                         '<a class="repo-link" href="' + repo.html_url + '">' + repo.name + '</a>' +
                        '</p>' +
                      '</div><!-- repo -->' + 
-      $('.repos').append(template)
+      $('#repos').append(template)
+      debugger
       console.log(repo)
     })
   }
