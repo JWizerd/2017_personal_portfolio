@@ -334,6 +334,20 @@ button a, button a:hover {
   padding: 10px 26px; 
 }
 
+#repos {
+  padding-left: 0;
+  list-style: none;
+}
+
+.repo {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 17px;
+  &:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
 /* ====================================
 Home
 ==================================== */

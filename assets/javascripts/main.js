@@ -67,11 +67,11 @@
 
   function consumeRepos(data) {
     data.forEach(function(repo) {
-      var template = '<div class="repo">' +
+      var template = '<li class="repo">' +
                        '<p class="repo-name">' +
-                        '<a class="repo-link" href="' + repo.html_url + '">' + repo.name + '</a>' +
+                        '<a target="_blank" class="repo-link" href="' + repo.html_url + '"><i class="fa fa-link"></i> ' + repo.name + '</a>' +
                        '</p>' +
-                     '</div>';
+                     '</li>';
       $('#repos').append(template);
     })
   }
