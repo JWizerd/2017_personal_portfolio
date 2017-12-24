@@ -60,13 +60,9 @@
       console.log(result);
     });
 
-    request.error(function(jqXHR, textStatus, errorThrown) {
-      if (textStatus == 'timeout')
-        console.log('The server is not responding');
-
-      if (textStatus == 'error')
-        console.log(errorThrown);
-    });
+    request.fail(function() {
+      console.log('An error occurred. Please try again or contact website administrator.')
+    })
   }
 
   /* add animation before load for smoothest effect */
