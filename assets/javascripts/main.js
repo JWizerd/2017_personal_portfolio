@@ -74,7 +74,7 @@
     /* drawer menu */
     $('.fa-github').parent().click(function(e){
       e.preventDefault();
-      $('.drawer').animate({width: 50%}, 500, 'linear');
+      $('.drawer').animate({width: 'toggle'}, 500);
     })
 
   });
