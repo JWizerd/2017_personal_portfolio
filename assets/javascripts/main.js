@@ -54,12 +54,19 @@
   /* GitHub Repos */
   /* https://api.github.com/users/JWizerd/repos */
   function GitHubRepos() {
-    $.get('https://api.github.com/users/JWizerd/repos', function('data'){
-      console.log('data')
-     .fail(function(data) {
-      console.log('An Error Occurred. Please contact admin. Which is myself.')
-      })
-    })
+    var request = $.get('https://api.github.com/users/JWizerd/repos');
+
+    request.success(function(result) {
+      console.log(result);
+    });
+
+    request.error(function(jqXHR, textStatus, errorThrown) {
+      if (textStatus == 'timeout')
+        console.log('The server is not responding');
+
+      if (textStatus == 'error')
+        console.log(errorThrown);
+    });
   }
 
   /* add animation before load for smoothest effect */
@@ -89,7 +96,7 @@
     })
 
     /* Get GitHub Repos from Public REST API */
-
+    GitHubRepos();
   });
 
 }(jQuery));
