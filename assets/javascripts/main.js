@@ -106,6 +106,7 @@
 
     /* drawer menu */
     toggleDrawerMenu('.github-link')
+    toggleDrawerMenu('.close-repos')
 
     /* Get GitHub Repos from Public REST API */
     GitHubRepos()
