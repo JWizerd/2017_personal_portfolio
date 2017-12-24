@@ -813,6 +813,10 @@ Media Queries
   button.btn-subpage a, button.btn-red a {
     font-size: 1em;
   }
+
+  .drawer-open {
+    width: 100% !important;
+  }
 }
 
 /* landscape orientation for smartphones display only a fully width orientation image */
