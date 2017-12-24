@@ -76,10 +76,9 @@
       e.preventDefault();
       $('.drawer').animate(
         { 
-          width: '50%',
-          display: 'toggle'
+          width: '50%'
         }, 
-        500
+        350
       )
     })
 
