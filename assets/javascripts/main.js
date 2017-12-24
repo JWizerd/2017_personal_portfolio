@@ -70,9 +70,9 @@
       if (index === 0) {
         $('#repos').before(
           '<div class="gh-info text-center">' +
-            '<p><a href="'+ repo.owner.html_url +'"><img class="gh-avatar" src="'+ repo.owner.avatar_url +'" alt="GitHub Profile Avatar"></a></p>' +
+            '<p><a target="_blank" href="'+ repo.owner.html_url +'"><img class="gh-avatar" src="'+ repo.owner.avatar_url +'" alt="GitHub Profile Avatar"></a></p>' +
             '<p class="gh-username lead">' + repo.owner.login + '</p>' +
-            '<p class="gh-profile"><a href="'+ repo.owner.html_url +'">View Profile</a></p>' +
+            '<p class="gh-profile"><a target="_blank" href="'+ repo.owner.html_url +'">View Profile</a></p>' +
            '</div><!-- end gh info -->'
         )
       }
@@ -104,7 +104,7 @@
         $('.drawer').addClass('bounceInLeft')
 
       }
-      
+
     })
   }
 
