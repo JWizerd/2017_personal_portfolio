@@ -56,8 +56,8 @@
   function GitHubRepos() {
     var request = $.get('https://api.github.com/users/JWizerd/repos');
 
-    request.done(function(result) {
-      consumeRepos(result);
+    request.done(function(data) {
+      consumeRepos(data);
     });
 
     request.fail(function() {
@@ -65,7 +65,7 @@
     })
   }
 
-  function consumeRepos(result) {
+  function consumeRepos(data) {
     data.forEach(function(repo) {
       var template = '<div class="repo">' +
                        '<p class="repo-name">' +
