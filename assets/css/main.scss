@@ -228,6 +228,10 @@ p {
   font-size: 1em;
 }
 
+a {
+  color: $apple;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -339,13 +343,21 @@ button a, button a:hover {
   list-style: none;
 }
 
+.repo, 
+.repo-name {
+  margin-bottom: 17px;
+}
+
 .repo {
   border-bottom: 1px solid #ddd;
-  padding-bottom: 17px;
   &:last-child {
     padding-bottom: 0;
     border-bottom: none;
   }
+}
+
+.repo-link i {
+  color: $sun;
 }
 
 /* ====================================
