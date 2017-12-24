@@ -69,7 +69,7 @@
     data.forEach(function(repo) {
       var template = '<div class="repo">' +
                        '<p class="repo-name">' +
-                        '<a class="repo-link" href="'+ data.html_url +'">'data.name + '</a>' +
+                        '<a class="repo-link" href="'+ data.html_url +'">' + data.name + '</a>' +
                        '</p>' +
                      '</div><!-- repo -->' + 
       $('.repos').append(template)
