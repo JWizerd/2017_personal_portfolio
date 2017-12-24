@@ -56,7 +56,7 @@
   function GitHubRepos() {
     var request = $.get('https://api.github.com/users/JWizerd/repos');
 
-    request.success(function(result) {
+    request.done(function(result) {
       console.log(result);
     });
 
@@ -66,6 +66,8 @@
 
       if (textStatus == 'error')
         console.log(errorThrown);
+
+      // Etc
     });
   }
 
@@ -96,7 +98,7 @@
     })
 
     /* Get GitHub Repos from Public REST API */
-    GitHubRepos();
+
   });
 
 }(jQuery));
