@@ -57,7 +57,7 @@
     var request = $.get('https://api.github.com/users/JWizerd/repos');
 
     request.done(function(result) {
-      console.log(result);
+      consumeRepos(result);
     });
 
     request.fail(function() {
@@ -65,7 +65,7 @@
     })
   }
 
-  function consumeRepos(data) {
+  function consumeRepos(result) {
     data.forEach(function(repo) {
       var template = '<div class="repo">' +
                        '<p class="repo-name">' +
