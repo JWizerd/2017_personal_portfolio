@@ -65,6 +65,17 @@
     })
   }
 
+  function consumeRepos(data) {
+    data.forEach(function(repo) {
+      var template = '<div class="repo">' +
+                       '<p class="repo-name">' +
+                        '<a class="repo-link" href="'+ data.html_url +'">'data.name + '</a>' +
+                       '</p>' +
+                     '</div><!-- repo -->' + 
+      $('.repos').append(template)
+    })
+  }
+
   /* add animation before load for smoothest effect */
   addAnimation('.subpage-title', 'bounceInLeft');
 
