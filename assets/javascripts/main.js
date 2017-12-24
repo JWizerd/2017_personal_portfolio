@@ -73,6 +73,7 @@
                        '</p>' +
                      '</div><!-- repo -->' + 
       $('.repos').append(template)
+      console.log(repo)
     })
   }
 
