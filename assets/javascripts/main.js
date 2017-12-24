@@ -66,8 +66,6 @@
 
       if (textStatus == 'error')
         console.log(errorThrown);
-
-      // Etc
     });
   }
 
@@ -98,7 +96,7 @@
     })
 
     /* Get GitHub Repos from Public REST API */
-
+    GitHubRepos()
   });
 
 }(jQuery));
