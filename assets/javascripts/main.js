@@ -89,7 +89,12 @@
     /* drawer menu */
     $(elm).click(function(e){
       e.preventDefault();
-      $('.drawer').toggleClass('bounceInLeft');
+      if ($('.drawer').hasClass('bounceInLeft')) {
+        $('.drawer').removeClass('bounceInLeft')
+        $('.drawer').addClass('bounceOutLeft')
+      } else {
+        $('.drawer').addClass('bounceInLeft')
+      }
     })
   }
 
