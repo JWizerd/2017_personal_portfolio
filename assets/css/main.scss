@@ -321,11 +321,13 @@ button a, button a:hover {
   width: 0;
   overflow-x: hidden;
   height: 100%;
-  background: #efefef;
-  color: #666;
+  background: #333;
+  color: #efefef;
   z-index: 10;
-  border-right: 1px solid #ddd;
-  border-left: 0
+  border: none;
+  border-right: 3px dashed $sun;
+  box-shadow: 0px 1px 43px #333;
+  padding: 10px 26px;
 }
 
 .drawer-open {
