@@ -89,7 +89,7 @@
     /* drawer menu */
     $(elm).click(function(e){
       e.preventDefault();
-      $('.drawer').toggleClass('drawer-open');
+      $('.drawer').toggleClass('bounceInLeft');
     })
   }
 
