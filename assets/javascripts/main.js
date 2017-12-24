@@ -51,6 +51,17 @@
     });
   }
 
+  /* GitHub Repos */
+  /* https://api.github.com/users/JWizerd/repos */
+  function GitHubRepos() {
+    $.get('https://api.github.com/users/JWizerd/repos', function('data'){
+      console.log('data')
+     .fail(function(data) {
+      console.log('An Error Occurred. Please contact admin. Which is myself.')
+      })
+    })
+  }
+
   /* add animation before load for smoothest effect */
   addAnimation('.subpage-title', 'bounceInLeft');
 
@@ -76,6 +87,8 @@
       e.preventDefault();
       $('.drawer').toggleClass('drawer-open');
     })
+
+    /* Get GitHub Repos from Public REST API */
 
   });
 
