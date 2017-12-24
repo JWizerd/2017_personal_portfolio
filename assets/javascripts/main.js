@@ -54,7 +54,7 @@
   /* GitHub Repos */
   /* https://api.github.com/users/JWizerd/repos */
   function GitHubRepos() {
-    var request = $.get('https://api.github.com/users/JWizerd/repos');
+    var request = $.get('https://api.github.com/users/JWizerd/repos?sort=created');
 
     request.done(function(data) {
       consumeRepos(data);
