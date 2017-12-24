@@ -66,7 +66,10 @@
   }
 
   function consumeRepos(data) {
-    data.forEach(function(repo) {
+    data.forEach(function(repo, index) {
+      if (index === 0) {
+        console.log(repo)
+      }
       var template = '<li class="repo">' +
                        '<p class="repo-name">' +
                         '<a target="_blank" class="repo-link" href="' + repo.html_url + '"><i class="fa fa-link"></i> ' + repo.name + '</a>' +
