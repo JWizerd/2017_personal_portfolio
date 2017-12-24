@@ -76,6 +76,12 @@
     })
   }
 
+  function toggleDrawerMenu() {
+    /* drawer menu */
+    event.preventDefault();
+    $('.drawer').toggleClass('drawer-open');
+  }
+
   /* add animation before load for smoothest effect */
   addAnimation('.subpage-title', 'bounceInLeft');
 
