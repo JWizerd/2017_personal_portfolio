@@ -72,9 +72,9 @@
     }, 3500);
 
     /* drawer menu */
-    $('.fa-github').click(function(e){
-      e.parent().preventDefault();
-      $('.drawer').animate({width:'toggle'});
+    $('.fa-github').parent().click(function(e){
+      e.preventDefault();
+      $('.drawer').animate({left: 'toggle'}, 0%);
     })
 
   });
