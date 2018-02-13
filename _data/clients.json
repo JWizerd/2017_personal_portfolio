@@ -55,18 +55,19 @@
     "reviewer": "",
     "reviewPic": ""
   }
-  // {
-  //   "name": "Impact Canopies",
-  //   "description": "A robust eCommerce website built with WooCommerce",
-  //   "specs": ["eCommerce Development", "PHP", "Wordpress", "WooCommerce", "jQuery", "Bootstrap", "RWD"],
-  //   "mainImage": "assets/img/desktop_impact-canopies-ecommerce.jpg",
-  //   "logo": "assets/img/logo_impact.png",
-  //   "modalID": "impact-canopy",
-  //   "link": "http://impactcanopy.com",
-  //   "rwdImage": "",
-  //   "techincalSpecs": "Impact Canopies was looking to simplify their website so we mitigated a lot of the frontend functionality to simpler design while still keeping the internal functionality and support for international clients, custom project management, and tailored product functionality for their vast amount of product variations. This site was built while working at Madwire Media. Graphic Design was done by one of MadWire's talented designers and I can't possibly take credit for the amazing job they did.",
-  //   "review": "",
-  //   "reviewer": "",
-  //   "reviewPic": ""
-  // }
 ]
+
+// {
+//   "name": "Impact Canopies",
+//   "description": "A robust eCommerce website built with WooCommerce",
+//   "specs": ["eCommerce Development", "PHP", "Wordpress", "WooCommerce", "jQuery", "Bootstrap", "RWD"],
+//   "mainImage": "assets/img/desktop_impact-canopies-ecommerce.jpg",
+//   "logo": "assets/img/logo_impact.png",
+//   "modalID": "impact-canopy",
+//   "link": "http://impactcanopy.com",
+//   "rwdImage": "",
+//   "techincalSpecs": "Impact Canopies was looking to simplify their website so we mitigated a lot of the frontend functionality to simpler design while still keeping the internal functionality and support for international clients, custom project management, and tailored product functionality for their vast amount of product variations. This site was built while working at Madwire Media. Graphic Design was done by one of MadWire's talented designers and I can't possibly take credit for the amazing job they did.",
+//   "review": "",
+//   "reviewer": "",
+//   "reviewPic": ""
+// }
