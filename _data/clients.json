@@ -48,7 +48,7 @@
     "mainImage": "assets/img/desktop_artisan-farmer-woocommerce-web-development.jpg",
     "logo": "assets/img/logo_artisan-farmer.png",
     "modalID": "artisan-farmer",
-    "link": "https://artisan-farmer.madwirebuild4.com/",
+    "link": "http://theartisanfarmer.com/",
     "rwdImage": "",
     "techincalSpecs": "This WooCommerce store was created for one of my co-workers who is interested in providing agricultural products to sustainable farmers and also provide an online community for collaboration in sustainable farming. I utilized Advanced Custom Field's 'Flexible Content' field to produce a lightweight page builder that allows him to use a wide variety of components and the ability to turn any page into a landing page style design. **Graphic Design was done by one of the talented designers at MadWire I just built the theme.",
     "review": "",
@@ -56,18 +56,3 @@
     "reviewPic": ""
   }
 ]
-
-// {
-//   "name": "Impact Canopies",
-//   "description": "A robust eCommerce website built with WooCommerce",
-//   "specs": ["eCommerce Development", "PHP", "Wordpress", "WooCommerce", "jQuery", "Bootstrap", "RWD"],
-//   "mainImage": "assets/img/desktop_impact-canopies-ecommerce.jpg",
-//   "logo": "assets/img/logo_impact.png",
-//   "modalID": "impact-canopy",
-//   "link": "http://impactcanopy.com",
-//   "rwdImage": "",
-//   "techincalSpecs": "Impact Canopies was looking to simplify their website so we mitigated a lot of the frontend functionality to simpler design while still keeping the internal functionality and support for international clients, custom project management, and tailored product functionality for their vast amount of product variations. This site was built while working at Madwire Media. Graphic Design was done by one of MadWire's talented designers and I can't possibly take credit for the amazing job they did.",
-//   "review": "",
-//   "reviewer": "",
-//   "reviewPic": ""
-// }
