@@ -44,7 +44,7 @@
   {
     "name": "Grason's Co",
     "description": "An API integration for franchise content generation and external posting.",
-    "specs": ["PHP", "jQuery", "Boostrap", "Wordpress", "Advanced Custom Fields", "WooCommerce", "SCSS"],
+    "specs": ["PHP", "Object Oriented Programming", "MVC", "Guzzle", "Composer", "Wordpress", "Plugin Development", "Advanced Custom Fields"],
     "mainImage": "assets/img/desktop_grasons-estate-sales.jpg",
     "logo": "assets/img/logo_grasons-estate-sales.png",
     "modalID": "grasons",
