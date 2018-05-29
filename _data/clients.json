@@ -1,19 +1,5 @@
 [
   {
-    "name": "Pikes Peak Plastics",
-    "description": "A turn key website solution for client user friendliness and extensibility. Built with Wordpress 4.7 and PHP7 for performance.",
-    "specs": ["Wordpress", "PHP", "jQuery", "Bootstrap", "RWD"],
-    "mainImage": "assets/img/desktop_pikes-peak-plastics-engineering-web-development.jpg",
-    "logo": "assets/img/logo_pikes-peak-plastics-engineering-web-design.png",
-    "modalID": "pikes-peak",
-    "link": "http://pikespeakplastics.com",
-    "rwdImage": "assets/img/rwd_pikes-peak-plastics-web-design.png",
-    "techincalSpecs": "For Pikes Peak Plastics, I knew my team and I wanted to use Wordpress for the Content Management System since the owner of the company already had prior experience with Wordpress. Utilizing Advanced Custom Fields and the Theme Customizer all written and visual content on the website was made editable from the backend along with conditional logic to add or remove features. For Frontend Behavior such as the gallery slider and css animations I chose to develop the features without a plugin to create minimalistic functionality to increase home page load times. From the design mock-ups to the website development and even the majority of the photography this website is a full represenation of my wide set of skills.",
-    "review": "",
-    "reviewer": "",
-    "reviewPic": ""
-  },
-  {
     "name": "Rossi Vucinovich PC",
     "description": "A robust attorney website and blog designed to bring quality information to railroad injury victims. My first client as a freelance Web Designer and Internet Marketer. My Internet Marketing services have 'greatly increased the infrastructure of the company over the past year' - James Vucinovich, President of RVPC.",
     "specs": ["Wordpress", "PHP", "jQuery", "RWD", "SASS"],
@@ -28,20 +14,6 @@
     "reviewPic": "assets/img/review_richard-wood.jpg"
   },
   {
-    "name": "Torrent Software",
-    "description": "A small custom internal CMS built to manage diagnostic information for an innovative health care software company.",
-    "specs": ["PHP", "jQuery", "Bootstrap", "RWD", "MVC", "Object Oriented Design", "SASS", "Flight: A PHP Micro-Framework"],
-    "mainImage": "assets/img/desktop_torrent-software-healthcare-web-development.jpg",
-    "logo": "assets/img/logo_torrent-software-web-design.png",
-    "modalID": "torrent-software",
-    "link": "http://torrent-software-sandbox.madwirebuild2.com",
-    "rwdImage": "",
-    "techincalSpecs": "This client needed a small content management system that will allow their users to login, view their healthcare care plans based from unique diagnostic codes and print off resources related to a diagnosis. On the administartive side, the client needed functionality to manage users, run CRUD operations on diagnostic content and their related care plan phases. Initially this build was developed as a static POC and then was continuously developed over the course of 3 months. This was a great opportunity for me to prove my knowledge of application development to my team leads and further my knowledge of object oriented programming, the model view controller paradigm and relational database design.",
-    "review": "Hey man just wanted to say thanks for all your hard work on this. You’re helping someone’s dream become a reality! Couldn’t have done this without your ambition and execution excellence as a developer!",
-    "reviewer": "Josh Bacon (Manager at Madwire Media)",
-    "reviewPic": ""
-  },
-  {
     "name": "The Artisan Farmer",
     "description": "An Online Community for the Agricultural World",
     "specs": ["PHP", "jQuery", "Boostrap", "Wordpress", "Advanced Custom Fields", "WooCommerce", "SCSS"],
@@ -54,5 +26,62 @@
     "review": "",
     "reviewer": "",
     "reviewPic": ""
+  },  
+  {
+    "name": "Forfice",
+    "description": "A 'personal tailor experience' for specialized bespoke dress shirts.",
+    "specs": ["PHP", "jQuery", "Boostrap", "Wordpress", "Advanced Custom Fields", "WooCommerce"],
+    "mainImage": "assets/img/desktop_forfice.jpg",
+    "logo": "assets/img/logo_forfice-shirt-ecommerce-store.png",
+    "modalID": "forfice",
+    "link": "http://forfice.com/",
+    "rwdImage": "",
+    "techincalSpecs": "The client's mission for this custom WooCommerce theme was to create an extensive customization checkout process that imitates a similar process to custom tailor. The UI for each product allows the user to use predefined measurements, save their own measurements and use them for the current subsequent shrt purchases or choose a default measurement for various standard fits. The UI utilizes custom developed APIs and JavaScript XHR to create a loadless interaction from beginning to end of the product customization. **Graphic Design was done by one of the talented designers at MadWire I just built the theme.",
+    "review": "",
+    "reviewer": "",
+    "reviewPic": ""
+  },
+  {
+    "name": "Grason's Co",
+    "description": "A complex API integration for franchise content generation and external posting.",
+    "specs": ["PHP", "jQuery", "Boostrap", "Wordpress", "Advanced Custom Fields", "WooCommerce", "SCSS"],
+    "mainImage": "assets/img/desktop_grasons-estate-sales.jpg",
+    "logo": "assets/img/logo_grasons-estate-sales.png",
+    "modalID": "grasons",
+    "link": "https://grasons.com/",
+    "rwdImage": "",
+    "techincalSpecs": "Estate Sales listings can be extremely content heavy. Large estate sale listings can have a minimum of 200+ images. Grason's Co. and their franchises needed an automated solution to distributing listings of this size to all of their external listing sites to improve their search engine optimization while eliminating the hours it took to manually to add content across the handful of estate sale websites and social networks not supported by third party software. Enter this project. Utilizing php and Guzzle, a http client for making external requests to third party APIs, I developed a wordpress plugin that would allow each of their franchises to manage all of their listings via the wordpress backend editor. Each time a custom estate sale post is made it is automatically posted to all external APIs of each franchise's choosing as well the ability to manage the deletion and updating of existing listings posted via the plugin on the external websites. This project was a catalyst to my promotion at MadWire into a research and development software engineer. **Graphic Design was done by one of the talented designers at MadWire I just built the theme.",
+    "review": "",
+    "reviewer": "",
+    "reviewPic": ""
   }
 ]
+
+  // {
+  //   "name": "Pikes Peak Plastics",
+  //   "description": "A turn key website solution for client user friendliness and extensibility. Built with Wordpress 4.7 and PHP7 for performance.",
+  //   "specs": ["Wordpress", "PHP", "jQuery", "Bootstrap", "RWD"],
+  //   "mainImage": "assets/img/desktop_pikes-peak-plastics-engineering-web-development.jpg",
+  //   "logo": "assets/img/logo_pikes-peak-plastics-engineering-web-design.png",
+  //   "modalID": "pikes-peak",
+  //   "link": "http://pikespeakplastics.com",
+  //   "rwdImage": "assets/img/rwd_pikes-peak-plastics-web-design.png",
+  //   "techincalSpecs": "For Pikes Peak Plastics, I knew my team and I wanted to use Wordpress for the Content Management System since the owner of the company already had prior experience with Wordpress. Utilizing Advanced Custom Fields and the Theme Customizer all written and visual content on the website was made editable from the backend along with conditional logic to add or remove features. For Frontend Behavior such as the gallery slider and css animations I chose to develop the features without a plugin to create minimalistic functionality to increase home page load times. From the design mock-ups to the website development and even the majority of the photography this website is a full represenation of my wide set of skills.",
+  //   "review": "",
+  //   "reviewer": "",
+  //   "reviewPic": ""
+  // },
+  // {
+  //   "name": "Torrent Software",
+  //   "description": "A small custom internal CMS built to manage diagnostic information for an innovative health care software company.",
+  //   "specs": ["PHP", "jQuery", "Bootstrap", "RWD", "MVC", "Object Oriented Design", "SASS", "Flight: A PHP Micro-Framework"],
+  //   "mainImage": "assets/img/desktop_torrent-software-healthcare-web-development.jpg",
+  //   "logo": "assets/img/logo_torrent-software-web-design.png",
+  //   "modalID": "torrent-software",
+  //   "link": "http://torrent-software-sandbox.madwirebuild2.com",
+  //   "rwdImage": "",
+  //   "techincalSpecs": "This client needed a small content management system that will allow their users to login, view their healthcare care plans based from unique diagnostic codes and print off resources related to a diagnosis. On the administartive side, the client needed functionality to manage users, run CRUD operations on diagnostic content and their related care plan phases. Initially this build was developed as a static POC and then was continuously developed over the course of 3 months. This was a great opportunity for me to prove my knowledge of application development to my team leads and further my knowledge of object oriented programming, the model view controller paradigm and relational database design.",
+  //   "review": "Hey man just wanted to say thanks for all your hard work on this. You’re helping someone’s dream become a reality! Couldn’t have done this without your ambition and execution excellence as a developer!",
+  //   "reviewer": "Josh Bacon (Manager at Madwire Media)",
+  //   "reviewPic": ""
+  // },
