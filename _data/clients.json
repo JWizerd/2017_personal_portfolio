@@ -56,18 +56,6 @@
     "reviewPic": ""
   }, 
   {
-    "name": "RGS Energy:  Solar Calculator",
-    "description": "A Custom JavaScript Calculator for calculating monthly solar costs for a location",
-    "specs": ["jQuery", "Ajax", "Google Map APIs", "RESTful APIs", "Object Oriented Design", "SASS"],
-    "mainImage": "assets/img/desktop-rgs-energy.jpg",
-    "logo": "assets/img/rgs-logo.png",
-    "modalID": "torrent-software",
-    "link": "https://wodkeenv.madwirebuild4.com/rgs-solar-calculator/",
-    "rwdImage": "",
-    "techincalSpecs": "RGS Energy wanted a useful feature for their client to calculate live estimates for solar costs based on the user's roof size, type, slant, geographic location, current monthly utility bill and more. On the surface, this purely JavaScript feature was created using a multitude of different RESTful APIs, vanilla javascript, and jQuery for UI manipulation and Ajax. Beneath the surface there is an intricate local storage management system used for tracking a user's progress so they can resume the calculator at a later time as well as communicating with the clients external CRM for customer insight.",
-    "reviewPic": ""
-  },
-  {
     "name": "Forfice",
     "description": "A 'personal tailor experience' for specialized bespoke dress shirts.",
     "specs": ["PHP", "jQuery", "Boostrap", "Wordpress", "Advanced Custom Fields", "WooCommerce"],
@@ -79,6 +67,18 @@
     "techincalSpecs": "The client's mission for this custom WooCommerce theme was to create an extensive customization checkout process that imitates a similar process to custom tailor. The UI for each product allows the user to use predefined measurements, save their own measurements and use them for the current subsequent shrt purchases or choose a default measurement for various standard fits. The UI utilizes custom developed APIs and JavaScript XHR to create a loadless interaction from beginning to end of the product customization. **Graphic Design was done by one of the talented designers at MadWire I just built the theme.",
     "review": "",
     "reviewer": "",
+    "reviewPic": ""
+  },
+  {
+    "name": "RGS Energy:  Solar Calculator",
+    "description": "A Custom JavaScript Calculator for calculating monthly solar costs for a location",
+    "specs": ["jQuery", "Ajax", "Google Map APIs", "RESTful APIs", "Object Oriented Design", "SASS"],
+    "mainImage": "assets/img/desktop-rgs-energy.jpg",
+    "logo": "assets/img/rgs-logo.png",
+    "modalID": "torrent-software",
+    "link": "https://wodkeenv.madwirebuild4.com/rgs-solar-calculator/",
+    "rwdImage": "",
+    "techincalSpecs": "RGS Energy wanted a useful feature for their client to calculate live estimates for solar costs based on the user's roof size, type, slant, geographic location, current monthly utility bill and more. On the surface, this purely JavaScript feature was created using a multitude of different RESTful APIs, vanilla javascript, and jQuery for UI manipulation and Ajax. Beneath the surface there is an intricate local storage management system used for tracking a user's progress so they can resume the calculator at a later time as well as communicating with the clients external CRM for customer insight.",
     "reviewPic": ""
   },
   {
