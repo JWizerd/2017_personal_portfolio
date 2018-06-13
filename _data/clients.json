@@ -75,7 +75,7 @@
     "specs": ["jQuery", "Ajax", "Google Map APIs", "RESTful APIs", "Object Oriented Design", "SASS"],
     "mainImage": "assets/img/desktop-rgs-energy.jpg",
     "logo": "assets/img/rgs-logo.png",
-    "modalID": "torrent-software",
+    "modalID": "rgs-energy",
     "link": "https://wodkeenv.madwirebuild4.com/rgs-solar-calculator/",
     "rwdImage": "",
     "techincalSpecs": "RGS Energy wanted a useful feature for their client to calculate live estimates for solar costs based on the user's roof size, type, slant, geographic location, current monthly utility bill and more. On the surface, this purely JavaScript feature was created using a multitude of different RESTful APIs, vanilla javascript, and jQuery for UI manipulation and Ajax. Beneath the surface there is an intricate local storage management system used for tracking a user's progress so they can resume the calculator at a later time as well as communicating with the clients external CRM for customer insight.",
