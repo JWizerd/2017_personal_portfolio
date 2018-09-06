@@ -191,35 +191,8 @@ h1, h2, h3, p, li, blockquote {
   line-height: 25px;
 }
 
-h2::before {
-  content: "<h2>";
-}
-
-h2::after {
-  content: "</h2>";
-}
-
-h2::before,
-h2::after,
-strong::before,
-strong::after
-{
-  font-family: $robot;
-  font-style: italic;
-  font-size: .9em;
-  letter-spacing: -1px;
-}
-
 strong {
   color: #222;
-}
-
-strong::before {
-  content: "<strong>";
-}
-
-strong::after {
-  content: "</strong>";
 }
 
 p {
