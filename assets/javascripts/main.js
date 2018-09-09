@@ -23,7 +23,7 @@
   $contactForm.submit(function(e) {
   	e.preventDefault();
   	$.ajax({
-  		url: '//formspree.io/jeremiah@impactstud.io',
+  		url: '//formspree.io/jeremiah.wodke@gmail.com',
   		method: 'POST',
   		data: $(this).serialize(),
   		dataType: 'json',
