@@ -104,7 +104,7 @@
     "modalID": "photography",
     "link": "http://photo.jeremiahwodke.com",
     "rwdImage": "",
-    "techincalSpecs": "'I don't want to upload images to multiple places' is my primary motivator for creating this frontend application. I knew eventually when I start marketing my photography freelance business again I want to manage my photos for ever website (social media and my own) from one location. Enter flickr. They have a really easy to use and robust API for users to manage their photos from other locations and as an added addition, upon uploading new images you can delegate flickr to automatically post to different social media platforms. For the templating and fluid gallery layout I used Vue.js and Vue Masonry In short, I turned Flickr into my backend as a service for this project and the sites data in it's entirety is loaded using XHR requests to Flickr's API.",
+    "techincalSpecs": "'I don't want to upload images to multiple places' is my primary motivator for creating this frontend application. I knew eventually when I start marketing my photography freelance business again I want to manage my photos for every website (social media and my own) from one location. Enter flickr. They have a really easy to use and robust API for users to manage their photos from other locations and as an added addition, upon uploading new images you can delegate flickr to automatically post to different social media platforms. For the templating and fluid gallery layout I used Vue.js and Vue Masonry In short, I turned Flickr into my backend as a service for this project and the sites data in it's entirety is loaded using XHR requests to Flickr's API.",
     "review": "",
     "reviewer": "",
     "reviewPic": ""
