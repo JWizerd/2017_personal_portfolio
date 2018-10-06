@@ -96,23 +96,23 @@
     "review": "",
     "reviewer": "",
     "reviewPic": ""
-  },
-  {
-    "name": "Personal Photography Site",
-    "description": "A frontend based application utilizing the Flickr API",
-    "specs": ["Vue.js", "Jekyll", "Flickr API", "Axios", "Masonry", "Fancybox", "SASS"],
-    "mainImage": "assets/img/desktop_personal-photography.jpg",
-    "logo": "assets/img/logo_Jeremiah-Wodke-Photography.png",
-    "modalID": "photography",
-    "link": "http://photo.jeremiahwodke.com",
-    "rwdImage": "",
-    "techincalSpecs": "'I don't want to upload images to multiple places' is my primary motivator for creating this frontend application. I knew eventually when I start marketing my photography freelance business again I want to manage my photos for every website (social media and my own) from one location. Enter flickr. They have a really easy to use and robust API for users to manage their photos from other locations and as an added addition, upon uploading new images you can delegate flickr to automatically post to different social media platforms. In short, I turned Flickr into my backend as a service for this project and the sites data in it's entirety is loaded using XHR requests to Flickr's API.",
-    "review": "",
-    "reviewer": "",
-    "reviewPic": ""
   }
 ]
 
+  // {
+  //   "name": "Personal Photography Site",
+  //   "description": "A frontend based application utilizing the Flickr API",
+  //   "specs": ["Vue.js", "Jekyll", "Flickr API", "Axios", "Masonry", "Fancybox", "SASS"],
+  //   "mainImage": "assets/img/desktop_personal-photography.jpg",
+  //   "logo": "assets/img/logo_Jeremiah-Wodke-Photography.png",
+  //   "modalID": "photography",
+  //   "link": "http://photo.jeremiahwodke.com",
+  //   "rwdImage": "",
+  //   "techincalSpecs": "'I don't want to upload images to multiple places' is my primary motivator for creating this frontend application. I knew eventually when I start marketing my photography freelance business again I want to manage my photos for every website (social media and my own) from one location. Enter flickr. They have a really easy to use and robust API for users to manage their photos from other locations and as an added addition, upon uploading new images you can delegate flickr to automatically post to different social media platforms. In short, I turned Flickr into my backend as a service for this project and the sites data in it's entirety is loaded using XHR requests to Flickr's API.",
+  //   "review": "",
+  //   "reviewer": "",
+  //   "reviewPic": ""
+  // },
   // {
   //   "name": "Pikes Peak Plastics",
   //   "description": "A turn key website solution for client user friendliness and extensibility. Built with Wordpress 4.7 and PHP7 for performance.",
