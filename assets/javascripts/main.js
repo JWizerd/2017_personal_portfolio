@@ -121,7 +121,7 @@
     /* animations */
     animateOnHover('.client-logo', 'tada');
 
-    // formSpreeAjax();
+    formSpreeAjax();
 
     /* bug fix for modal window and animation.css */
     window.setTimeout(function() {
