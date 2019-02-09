@@ -40,7 +40,7 @@
     "review": "",
     "reviewer": "",
     "reviewPic": ""
-  }, 
+  },
   {
     "name": "Torrent Software",
     "description": "A small custom internal CMS built to manage diagnostic information for an innovative health care software company.",
@@ -54,7 +54,7 @@
     "review": "Hey man just wanted to say thanks for all your hard work on this. You’re helping someone’s dream become a reality! Couldn’t have done this without your ambition and execution excellence as a developer!",
     "reviewer": "Josh Bacon (Manager at Madwire Media)",
     "reviewPic": ""
-  }, 
+  },
   {
     "name": "Forfice",
     "description": "A 'personal tailor experience' for specialized bespoke dress shirts.",
@@ -93,6 +93,20 @@
     "link": "https://grasons.com/",
     "rwdImage": "",
     "techincalSpecs": "Estate Sales listings can be extremely content heavy. Large estate sale listings can have a minimum of 200+ images. Grason's Co. and their franchises needed an automated solution to distributing listings of this size to all of their external listing sites to improve their search engine optimization while eliminating the hours it took to manually to add content across the handful of estate sale websites and social networks not supported by third party software. Enter this project. Utilizing php and Guzzle, a http client for making external requests to third party APIs, I developed a wordpress plugin that would allow each of their franchises to manage all of their listings via the wordpress backend editor. Each time a custom estate sale post is made it is automatically posted to all external APIs of each franchise's choosing as well the ability to manage the deletion and updating of existing listings posted via the plugin on the external websites. This project was a catalyst to my promotion at MadWire into a research and development software engineer. **Graphic Design was done by one of the talented designers at MadWire I just built the integration.",
+    "review": "",
+    "reviewer": "",
+    "reviewPic": ""
+  },
+  {
+    "name": "Personal Photography Site",
+    "description": "A Vue.js application utilizing the Flickr API",
+    "specs": ["Vue.js", "Jekyll", "Flickr API", "Axios", "Masonry", "Fancybox", "SASS"],
+    "mainImage": "assets/img/desktop_personal-photography.jpg",
+    "logo": "assets/img/logo_Jeremiah-Wodke-Photography.png",
+    "modalID": "photography",
+    "link": "http://photo.jeremiahwodke.com",
+    "rwdImage": "",
+    "techincalSpecs": "I want to update my photography from one location and have it update across all of my marketing channels (website, facebook, flickr, instagram etc.). This vue application which interacts with Flickr's REST API is that solution. With Flickr, I can upload images, resize my images for performance and deploy my photography across my marketing outlets. throttling and local storage, and lazy loading are intritically interacting with my vue components to promote a great user experience.",
     "review": "",
     "reviewer": "",
     "reviewPic": ""
